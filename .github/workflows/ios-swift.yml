@@ -1,0 +1,57 @@
+name: build-ios-ipa
+# Native Swift + WKWebView build (no Flutter): smaller bundle, faster launch.
+# Usage: upload the whole contents of this folder as the root of a new repository.
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: macos-14
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Environment info
+        run: |
+          xcodebuild -version
+          echo "--- project info ---"
+          xcodebuild -list -project Runner.xcodeproj || true
+          echo "--- file tree ---"
+          ls -R . | head -60
+      - name: Build (unsigned)
+        run: |
+          set -euo pipefail
+          xcodebuild \
+            -project Runner.xcodeproj \
+            -scheme FlymeTool \
+            -configuration Release \
+            -sdk iphoneos \
+            -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" \
+            build
+      - name: Package + ad-hoc sign
+        run: |
+          set -euo pipefail
+          APP="build/Build/Products/Release-iphoneos/FlymeTool.app"
+          if [ ! -d "$APP" ]; then
+            echo "build product missing, actual directory contents:"
+            find build/Build/Products -maxdepth 2 -type d | head -20
+            exit 1
+          fi
+          rm -rf build/ipa && mkdir -p build/ipa/Payload
+          cp -R "$APP" build/ipa/Payload/
+          codesign --force --deep --sign - build/ipa/Payload/FlymeTool.app
+          codesign -dv --verbose=4 build/ipa/Payload/FlymeTool.app 2>&1 | head -8 || true
+          test -d build/ipa/Payload/FlymeTool.app/_CodeSignature && echo "_CodeSignature OK" || echo "_CodeSignature MISSING"
+          echo "--- bundle layout ---"
+          ls -la build/ipa/Payload/FlymeTool.app | head -20
+          echo "--- size ---"
+          du -sh build/ipa/Payload/FlymeTool.app
+          cd build/ipa
+          zip -qry FlymeTool-swift-unsigned.ipa Payload
+          ls -lh FlymeTool-swift-unsigned.ipa
+      - uses: actions/upload-artifact@v4
+        with:
+          name: FlymeTool-swift-unsigned-ipa
+          path: build/ipa/FlymeTool-swift-unsigned.ipa
+          retention-days: 30
