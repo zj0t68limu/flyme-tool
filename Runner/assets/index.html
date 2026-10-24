@@ -1,0 +1,2092 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>魅族 Flyme 固件全量包查询工具 · 全系列</title>
+<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAITUlEQVR4nOWbe4xUVx3HP/fOHfbFLiu7FGkRWR4zVti2Umpxa90ChWCiVJG1D6s11aTVsf3D9A/FGNAYbIwSG7KBEFtT6YMUiq0ktA0CbkyRhEpYWrrslO4iLc9dlmVfwzKPa373nLMzu8zsQ6hZ9n6Tm7tz7u+ec76/5zkzeyyywXUt1mDxKyslH0v/5M6Lp7gvkaI6niIMlKVcgowi2BZx4HzQptGxqQvavN7+Q+ug93C1a7MGF8tyB75nXdGTCGvi+RvdJQGLnyZcFvV2R8d9akKIngT0JhmVyAtAoQMXLkbJKwpddiz2JF3WXXrc2jWQW3YF1LwSYOu3k9S6Ewsc1se6Gh/CsiFvtjxNanlzjUa4GVeA3g/ATVEwPvxSLMETRKy2Po4aVhbyc4octnfHmkIEZxjBANcn1PzjTYGighnR7gQriFhHMpVg9XONWvfm4iB1nR2NkygIS0yNqji/CsSJNQaLS8ItnXGqiVgNhrPF6tU2rIHS4yV5BdMP9HY1zqIgnAAcxhYSxBqdvPHhY72x43fQPr1DeFvUuAG2WuL6LxNvfoBgxVgkb5Ag3uwQrNhCxHpQuKsQqHUXcim6h/zQWCZvkOBS1CE/tIiItdfWjat0jRyt2f1awtJcV3kfrFr31oDNO4mUl+n9oACB69gkkynm2y6sTPRExe37LRDGOFLC2YWVEgLVE0tD+Mj6AktzrhYFhHqk4vtMAZpzSBRQfjnlPwVozuWigEDqij3S2IfmHDBl0Lew8TlsfA4bn8PG57DxOWx8DnsoAdkw603zmIQz2EMhnhzGIsn7ltTqW1yMDQVYmvw9N8ETlTBrAgRt9XVrIgWODa83w6r9sPNr6vn3dsO/zgxfcaNWAY6tSD44G15akvvl99vUPVwKFSUwYVxaeZ6mrkcFWNrC5fmwoVq1bToCm95Py4h1xRvOxtRn+bHEddV7As9T3OxeIMoxHiIyomy5y6uZucb0Jc8FImO80h2kXyOX2ceIFBDQ1v/KjcqizR3wWN3gnciActl64FgirczMuXqfRVEZjZmTzGz3Jqfn0gf9fGCIGbm+9zOeDeWMTq4HE/PVveWSImasmtlzPKXb3DTxOyfDvVOh4QJsb0pPwEx6/g2w+CaoPw//boFHPwcHW+HjLnhsDpTmwcEW2PgeyJb169PhvgoYH1Qh99xRJWv6E8UL+VvLoWYmhEqh4zLUnYIXoyoxD6YEhyEgHcg1nN8DRSHy29xv7lR/T98Mp7r7V4jnFkJlGdS8BTNL4OkvKRkhLu8KHgnDV6fBoVb42bz+Y0QqYenflAKN5X8+D9Yu6C/3g5vh8TnwzTfgXEzNIVvo2EORklzwnRB8N6yuh/XfyyuulBUSe0/CP08rj5EkKhinq8eyaYq8eMe2D6EoqAjcWAQnu+ChXfDIbjh2UckK+eOd8P3dsOJNeOcc3FAAzy5K5ypRlpAX73tqH9y+FZbtgN0fQ9Wn4dVlenLuCD3A1vEs5e2Fe3NYe5OOUS1rctgz9XD3FDW5PxxKx/GTt6j7hvfUXZQkVrx4GZbuUGQFknf2fkNZ7OG/w9unVbuEzLv3w+2T4PMTVUj8rkqRr34NDry9D2ZXebJvfQS7lqtw/NZMePXDLDmFQRSQ1IJneuCNE+CIC+mQEOWI2/Z1prVrktCO4xBtV9YWS755Am4rh6WfUe64Oarl9fv/6VTkxVPirvIQE3INbekMf6JTxb+QLxmn4l48oiUGX54Ci++v6qssotTuuMoTkkdEAdng5FKA8ZimDnh0DyOCJK/178L6u+FHc5UCInMViY1HoL23/xjm7iVVXVXMrzSBASXV3EV5kwrUM0nY6+7KPZ+pRXoc938IgXF22gIDkavOiujmRlhzByyZqmJx5UzlqrKmyCafCZloZj3PBrHy2R4lc6oLlu9Mh5SlPbWtV83blOVs6xI79xD9J+TV2QFXLgQDygWfPwoFDjy/WCXILcfgZLdSajbiI4FUjMPn4XQPTClUuerAObUU33cG9p9Vrv/UbTBFe0A2I9q5BugjOowlrciIrHExc99wRGlfJifPnznc/z2xkrSL6w+EWCtbu7TJO2JtwS/2K6u/shR+/UX4wiRYMBleXAK/r1IV7KMuPR4jCIG8gOq4LG9oBZTlK1mxtqcA7aJSznaegBUzVCKtb+2/ipMwEzkptZmQ9r59xYCxRFbeMSH656MwuRB+uwB+OV9dBh9cVOsASZzZKkBWBRjr7T+jLCZJcCisOwTTiuHohXQfQrI4qEqWzHVdvXpm1vNmgjKGsZBBZxyeVv/fRZf6BacPfzwMny1WVcYjYCtZUfADs+CWMrU3kbXIXxpVws1FXmBRe2VuvNrNnBnwJ5WqEkhM3rU992rsajEYwaG25k62xswSNJxdldmxydrBfF8gLvpkpWqXxZCZTLYNT7Yxhmo3YxkZU6nM2t/ztNTQ30s4uR4YIsNBppyxxo/nwuxStaj5q94UZesv1xgjbR+4yxyuCztcYxiNSxJ7rRmebUgnxeEq9P8JK1sOuPaDjN4viJxPqmPvCxJdez95FY9CBbhSChn9sPE5bHwOG5/DxuewpXSbjYWfoDknRQGten8+iovVNYerObfKLVoY9J8CNOeoKKCurT3qOwVoznUSCtucQu/f5P2UEG3hbME2241Y9YkU//AOGF0fi7erRVK4Cmc3YtUbq6/1zgr6IwxczXWtfLC9IzMRay/5oS3ecRI5UTF2oY7MCFfhXCNHZnx/aMrnx+Zs77GQl8OEEauhM87CouJwlHhTUCfF6zkxqvnHm4LCSbh55IWrPkJr9RP39dFZA18fnkbDR8fn/wvTS9tHmWexZAAAAABJRU5ErkJggg==">
+<style>
+:root{
+  --bg:#eef1f5; --card:#ffffff; --ink:#171a21; --sub:#646c7a; --faint:#969dab;
+  --line:#e3e7ee; --blue:#0095FF; --blue-d:#007ACC; --blue-bg:#E6F4FF;
+  --green:#159947; --green-bg:#e7f6ec; --cyan:#0e86a8; --cyan-bg:#e3f4f8;
+  --orange:#e2620b; --orange-bg:#fdf0e3; --purple:#8a2be2; --purple-bg:#f2e9fd;
+  --teal:#0d9488; --teal-bg:#e3f5f2;
+  --rose:#d61f69; --rose-bg:#fce7f0;
+  --indigo:#4f46e5; --indigo-bg:#eceefe;
+  --shadow:0 1px 2px rgba(20,30,50,.05),0 4px 16px rgba(20,30,50,.06);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{font-family:"PingFang SC","Microsoft YaHei","Segoe UI",system-ui,-apple-system,sans-serif;
+  background:var(--bg);color:var(--ink);line-height:1.55;font-size:15px;padding-bottom:60px}
+.mono{font-family:ui-monospace,"Cascadia Code",Consolas,"SF Mono",Menlo,monospace}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+header.top{background:linear-gradient(135deg,#0b3d91 0%,#0095FF 60%,#4FB0FF 100%);color:#fff;padding:26px 0 22px}
+header.top h1{font-size:22px;font-weight:700;letter-spacing:.3px;display:flex;align-items:center;gap:10px}
+header.top .sub{margin-top:7px;font-size:13.5px;color:#d6e6ff;max-width:760px}
+header.top .meta{margin-top:10px;font-size:12px;color:#b9d3ff;display:flex;gap:16px;flex-wrap:wrap}
+header.top .meta b{color:#fff;font-weight:600}
+.logo{flex:0 0 auto;display:grid;place-items:center;background:transparent;border:0;border-radius:8px;padding:9px;margin:-9px 0 -9px -9px;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.logo:hover{opacity:.85}
+.logo:focus{outline:none}
+.logo:focus-visible{outline:none}
+/* 触屏（iOS Safari 会把可点击元素聚焦）不画焦点框；桌面键盘仍保留 */
+@media (hover:hover) and (pointer:fine){
+  .logo:focus-visible{outline:2px solid rgba(255,255,255,.75);outline-offset:2px}
+}
+/* tabs */
+.tabs-zone{position:relative}
+.tabs{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px;margin:-16px 0 0;position:relative;z-index:3}
+/* settings modal */
+.modal-mask{position:fixed;inset:0;background:rgba(15,20,30,.48);z-index:200;display:none;align-items:center;justify-content:center;padding:20px}
+.modal-mask.show{display:flex}
+.modal{background:#fff;border-radius:14px;width:100%;max-width:520px;max-height:86vh;overflow:auto;box-shadow:0 20px 60px rgba(0,0,0,.3)}
+.modal-hd{display:flex;align-items:center;justify-content:space-between;padding:16px 18px;border-bottom:1px solid var(--line);position:sticky;top:0;background:#fff}
+.modal-hd .t{font-size:16px;font-weight:700}
+.modal-x{border:none;background:none;cursor:pointer;color:var(--faint);font-size:22px;line-height:1;padding:4px}
+.modal-hd .hint{font-size:11.5px;color:var(--faint);font-weight:400;margin-top:2px}
+.modal-bd{padding:12px 18px}
+.pin-group-label{display:flex;align-items:center;gap:9px;font-size:12px;font-weight:700;color:var(--faint);
+  letter-spacing:.3px;margin:6px 2px 9px}
+.pin-group-label .ln{flex:1;height:1px;background:var(--line)}
+.pin-group-label:first-child{margin-top:2px}
+.order-item{display:flex;align-items:center;gap:9px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;margin-bottom:8px;background:#fff}
+.order-item.off{background:#fafbfc}
+.order-item .oi-check{width:18px;height:18px;flex:0 0 auto;cursor:pointer;accent-color:var(--blue)}
+.order-item .oi-main{flex:1;min-width:0}
+.order-item .oi-name{font-size:14px;font-weight:600;line-height:1.25}
+.order-item .oi-code{font-size:11px;color:var(--faint);font-weight:400}
+.order-item .oi-launch{font-size:11px;color:var(--faint);flex:0 0 auto}
+.order-item .oi-btn{width:29px;height:29px;flex:0 0 auto;border:1px solid var(--line);background:#fff;border-radius:7px;cursor:pointer;color:var(--sub);display:grid;place-items:center}
+.order-item .oi-btn:hover{border-color:var(--blue);color:var(--blue)}
+.order-item .oi-seq{width:40px;height:29px;flex:0 0 auto;border:1px solid var(--line);border-radius:7px;text-align:center;
+  font-size:13px;font-weight:700;color:var(--blue);outline:none;padding:0;box-sizing:border-box;
+  line-height:27px;-moz-appearance:textfield;appearance:textfield}
+.order-item .oi-seq::-webkit-inner-spin-button,.order-item .oi-seq::-webkit-outer-spin-button{
+  -webkit-appearance:none;appearance:none;margin:0}
+.order-item .oi-seq:focus{border-color:var(--blue);box-shadow:0 0 0 2px rgba(0,103,255,.14)}
+.modal-ft{display:flex;gap:10px;align-items:center;justify-content:flex-end;padding:14px 18px;border-top:1px solid var(--line);position:sticky;bottom:0;background:#fff}
+.pin-help{font-size:11.5px;color:var(--faint);margin:2px 2px 4px;line-height:1.6}
+/* 机型设置：搜索框、高亮、全选 */
+.set-search{position:relative;margin:6px 2px 12px}
+.set-search input{width:100%;height:38px;border:1px solid var(--line);border-radius:10px;padding:0 38px 0 38px;
+  font-size:13.5px;background:#fff;box-sizing:border-box}
+.set-search input:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 2px rgba(0,103,255,.12)}
+.set-search .ss-ic{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--faint);display:flex}
+.set-search .ss-x{position:absolute;right:8px;top:50%;transform:translateY(-50%);width:24px;height:24px;border:none;
+  border-radius:50%;background:#d8dde6;color:#fff;font-size:14px;line-height:1;cursor:pointer;display:none;place-items:center}
+.set-search .ss-x.show{display:grid}
+.order-item.hit{background:#d8f5e4;border-color:#9fe3bf}
+.order-item.hit.off{background:#d8f5e4}
+.sel-all{display:flex;align-items:center;gap:8px;margin-right:auto;font-size:13.5px;font-weight:600;cursor:pointer;color:var(--ink)}
+.sel-all input{width:18px;height:18px;accent-color:var(--blue);cursor:pointer}
+/* 机型系统版本（渠道）二级菜单 */
+.chan-wrap{position:relative;margin-right:6px}
+.chan-btn{border:1px solid var(--line);background:#fff;border-radius:8px;padding:7px 11px;font-size:12.5px;font-weight:600;
+  color:var(--sub);cursor:pointer;display:inline-flex;align-items:center;gap:5px}
+.chan-btn:hover{border-color:var(--blue);color:var(--blue)}
+.chan-btn svg{transition:transform .15s}
+.chan-wrap.open .chan-btn svg{transform:rotate(180deg)}
+.chan-pop{position:absolute;bottom:calc(100% + 8px);left:0;width:230px;background:#fff;border:1px solid var(--line);
+  border-radius:11px;box-shadow:0 12px 36px rgba(20,30,50,.18);padding:9px;display:none;z-index:30;max-height:320px;overflow:auto}
+.chan-wrap.open .chan-pop{display:block}
+.chan-pop .chan-row{display:flex;align-items:center;gap:8px;padding:7px 8px;border-radius:7px;font-size:13px;cursor:pointer;color:var(--ink)}
+.chan-pop .chan-row:hover{background:#f3f6fb}
+.chan-pop .chan-row input{width:16px;height:16px;accent-color:var(--indigo);cursor:pointer}
+.chan-pop .chan-row .cnt{margin-left:auto;font-size:11px;color:var(--faint)}
+.chan-pop .chan-all{border-bottom:1px solid var(--line);margin-bottom:6px;padding-bottom:8px;font-weight:700}
+.chan-pop .chan-tip{font-size:10.5px;color:var(--faint);padding:6px 8px 2px;line-height:1.5}
+/* 一键回到顶部（主页 + 机型设置弹窗），低调圆形浮动按钮 */
+.toTop{position:fixed;right:22px;bottom:22px;width:42px;height:42px;border-radius:50%;z-index:120;
+  background:#fff;border:1px solid var(--line);box-shadow:0 6px 18px rgba(15,40,90,.16);
+  display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--blue);
+  opacity:0;pointer-events:none;transition:opacity .18s ease,transform .18s ease}
+.toTop.show{opacity:1;pointer-events:auto}
+.toTop:hover{transform:translateY(-2px);box-shadow:0 9px 24px rgba(15,40,90,.22)}
+.toTop svg{display:block}
+.toTopModal{position:fixed;width:38px;height:38px;border-radius:50%;z-index:230;
+  background:#fff;border:1px solid var(--line);box-shadow:0 5px 16px rgba(15,40,90,.20);
+  display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--blue);
+  opacity:0;pointer-events:none;transition:opacity .18s ease}
+.toTopModal.show{opacity:1;pointer-events:auto}
+.toTopModal:hover{border-color:var(--blue)}
+@media(max-width:600px){.toTop{right:14px;bottom:16px}}
+.tab{min-width:0;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;cursor:pointer;
+  box-shadow:var(--shadow);transition:transform .12s,border-color .12s;display:flex;align-items:center;gap:10px;text-align:left}
+.tab:hover{transform:translateY(-1px);border-color:#c5d6f5}
+.tab.active{border-color:var(--blue);box-shadow:0 0 0 2px rgba(0,103,255,.15),var(--shadow)}
+.tab .tn{font-size:14.5px;font-weight:700;line-height:1.3}
+.tab .tc{font-size:11px;color:var(--sub);margin-top:3px;line-height:1.4}
+.tab .dot{width:9px;height:9px;border-radius:50%;background:var(--green);margin-left:auto;flex:0 0 auto}
+@media(max-width:920px){.tabs{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:600px){.tabs{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(7,1fr);gap:8px;margin:16px 0}
+.stat.k-variant .n{color:var(--teal)}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:11px 12px;
+  cursor:pointer;transition:transform .12s,border-color .12s,background .12s,box-shadow .12s}
+.stat:hover{transform:translateY(-1px);border-color:#b9c6dd}
+.stat .n{font-size:20px;font-weight:700;line-height:1.1}
+.stat .l{font-size:11.5px;color:var(--sub);margin-top:3px}
+.stat.k-official .n{color:var(--blue)} .stat.k-factory .n{color:var(--cyan)}
+.stat.k-hidden .n{color:var(--orange)} .stat.k-multi .n{color:var(--purple)} .stat.k-total .n{color:var(--ink)}
+.stat.k-beta .n{color:var(--rose)}
+.stat.k-total.active{background:#f0f2f6;border-color:var(--ink);box-shadow:0 0 0 2px rgba(23,26,33,.12)}
+.stat.k-official.active{background:var(--blue-bg);border-color:var(--blue);box-shadow:0 0 0 2px rgba(0,103,255,.14)}
+.stat.k-factory.active{background:var(--cyan-bg);border-color:var(--cyan);box-shadow:0 0 0 2px rgba(14,134,168,.14)}
+.stat.k-hidden.active{background:var(--orange-bg);border-color:var(--orange);box-shadow:0 0 0 2px rgba(226,98,11,.14)}
+.stat.k-multi.active{background:var(--purple-bg);border-color:var(--purple);box-shadow:0 0 0 2px rgba(138,43,226,.14)}
+.stat.k-beta.active{background:var(--rose-bg);border-color:var(--rose);box-shadow:0 0 0 2px rgba(214,31,105,.14)}
+.stat.k-variant.active{background:var(--teal-bg);border-color:var(--teal);box-shadow:0 0 0 2px rgba(13,148,136,.14)}
+@media(max-width:760px){.stats{grid-template-columns:repeat(4,1fr)}}
+/* toolbar */
+.toolbar{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;display:flex;gap:10px;
+  align-items:center;flex-wrap:wrap;box-shadow:var(--shadow);margin-bottom:16px}
+.search{flex:1;min-width:200px;position:relative}
+.search input{width:100%;padding:9px 32px 9px 34px;border:1px solid var(--line);border-radius:8px;font-size:14px;outline:none}
+.search input:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(0,103,255,.12)}
+.search>svg{position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--faint)}
+.search-clear{position:absolute;right:7px;top:50%;transform:translateY(-50%);width:20px;height:20px;border:none;border-radius:50%;background:var(--faint);color:#fff;display:none;align-items:center;justify-content:center;cursor:pointer;padding:0;flex:0 0 auto}
+.search-clear:hover{background:var(--ink)}
+.search-clear.show{display:flex}
+.filters{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:#fff;border-radius:20px;padding:6px 13px;font-size:12.5px;cursor:pointer;color:var(--sub);
+  display:inline-flex;align-items:center;gap:6px;user-select:none;transition:all .12s}
+.chip:hover{border-color:#b9c6dd}
+.chip.on{color:#fff;border-color:transparent}
+.chip.on[data-f="all"]{background:var(--ink)} .chip.on[data-f="official"]{background:var(--blue)}
+.chip.on[data-f="factory"]{background:var(--cyan)} .chip.on[data-f="hidden"]{background:var(--orange)}
+.chip.on[data-f="multi"]{background:var(--purple)}
+.chip.on[data-f="beta"]{background:var(--rose)}
+.chip.on[data-f="variant"]{background:var(--teal)}
+/* version group */
+.group{background:var(--card);border:1px solid var(--line);border-radius:12px;margin-bottom:12px;overflow:hidden;box-shadow:var(--shadow)}
+.group-hd{display:flex;align-items:center;gap:12px;padding:13px 16px;cursor:pointer;user-select:none;border-bottom:1px solid transparent}
+.group-hd:hover{background:#fafbfd}
+.group.open .group-hd{border-bottom-color:var(--line)}
+.gver{font-size:16px;font-weight:700}
+.gver .flyme{color:var(--faint);font-weight:500;font-size:13px;margin-right:4px}
+.gbadge{font-size:11.5px;font-weight:600;padding:2px 9px;border-radius:20px;background:var(--purple-bg);color:var(--purple)}
+.gmulti-flag{font-size:11.5px;color:var(--purple);background:var(--purple-bg);padding:2px 9px;border-radius:6px;font-weight:600}
+.gmulti-flag.variant{color:var(--teal);background:var(--teal-bg)}
+.gvariant-title{font-size:17px;font-weight:800;color:var(--ink);letter-spacing:-.2px}
+.group.variant-group{border-color:#bfe3dd;background:#f6fbfa}
+.group.beta-group{border-color:#f3c9dd;background:#fef8fb}
+.section-label{display:flex;align-items:center;gap:10px;margin:22px 0 12px;font-size:12.5px;font-weight:700;color:var(--faint);letter-spacing:.4px}
+.section-label .sl-dot{width:7px;height:7px;border-radius:50%;background:var(--ink)}
+.section-label.variant{color:var(--teal)} .section-label.variant .sl-dot{background:var(--teal)}
+.section-label.beta{color:var(--rose)} .section-label.beta .sl-dot{background:var(--rose)}
+.section-label .sl-line{flex:1;height:1px;background:var(--line)}
+.section-label:first-child{margin-top:4px}
+.gcount{margin-left:auto;font-size:12px;color:var(--sub);display:flex;align-items:center;gap:8px}
+.chev{transition:transform .15s;color:var(--faint)} .group.open .chev{transform:rotate(90deg)}
+.builds{display:none} .group.open .builds{display:block}
+.build{padding:14px 16px;border-top:1px solid var(--line);display:grid;grid-template-columns:1fr auto;gap:12px}
+.build:first-child{border-top:none}
+.b-main{min-width:0}
+.b-row1{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:7px}
+.b-date{font-size:15px;font-weight:700}
+.b-time{font-size:12.5px;color:var(--sub);font-weight:500}
+.tag{font-size:11px;font-weight:600;padding:2.5px 8px;border-radius:5px;white-space:nowrap}
+.tag.official{background:var(--blue-bg);color:var(--blue)} .tag.factory{background:var(--cyan-bg);color:var(--cyan)}
+.tag.hidden{background:var(--orange-bg);color:var(--orange)} .tag.multi{background:var(--purple-bg);color:var(--purple)}
+.tag.variant{background:var(--teal-bg);color:var(--teal)}
+.tag.beta{background:var(--rose-bg);color:var(--rose)}
+.tag.full{background:#eef1f5;color:#4a5263}
+.tag.diff{background:#f3e8fd;color:#7b3fe4}
+.tag.dead{background:#fdeaea;color:#c0392b}
+.tag.chan{background:var(--indigo-bg);color:var(--indigo)}
+.tabs-empty{grid-column:1/-1;background:var(--card);border:1px dashed #c3ccdb;border-radius:12px;
+  padding:30px 18px;text-align:center;color:var(--faint);font-size:14px;line-height:1.7}
+.btn-dead{background:#c0392b;color:#fff} .btn-dead:hover{background:#a93226}
+.b-size.dead{color:#c0392b;font-weight:600;font-size:11.5px}
+.b-url.dead{background:#fdf3f2;color:#8a5a54}
+.b-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px 18px;font-size:12.5px}
+.b-grid .k{color:var(--faint);display:inline-block;min-width:52px}
+.b-grid .v{color:var(--ink);margin-left:2em}
+.b-grid .v.mono{font-size:12px;word-break:break-all}
+.b-url{margin-top:8px;background:#f7f9fc;border:1px solid var(--line);border-radius:7px;padding:7px 10px;font-size:11.5px;
+  color:#3a4253;word-break:break-all;line-height:1.45}
+.b-actions{display:flex;flex-direction:column;gap:8px;align-items:flex-end;justify-content:center}
+.btn{border:none;border-radius:8px;padding:8px 14px;font-size:13px;font-weight:600;cursor:pointer;display:inline-flex;align-items:center;gap:6px;
+  text-decoration:none;white-space:nowrap;transition:background .12s,transform .1s}
+.btn:active{transform:scale(.97)}
+.btn-primary{background:var(--blue);color:#fff} .btn-primary:hover{background:var(--blue-d)}
+.btn-ghost{background:#fff;color:var(--ink);border:1px solid var(--line)} .btn-ghost:hover{border-color:#b9c6dd;background:#f7f9fc}
+.b-size{font-size:12px;color:var(--sub);text-align:right}
+/* sections */
+.section{margin-top:28px}
+.sec-h{font-size:17px;font-weight:700;margin-bottom:4px;display:flex;align-items:center;gap:9px}
+.sec-h .bar{width:4px;height:17px;background:var(--blue);border-radius:2px}
+.sec-sub{font-size:13px;color:var(--sub);margin-bottom:14px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;box-shadow:var(--shadow)}
+/* validator */
+.v-input{width:100%;padding:11px 13px;border:1px solid var(--line);border-radius:9px;font-size:13px;outline:none;font-family:ui-monospace,Consolas,monospace}
+.v-input:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(0,103,255,.12)}
+.v-btns{display:flex;gap:10px;margin-top:11px;flex-wrap:wrap}
+.v-out{margin-top:15px;display:none} .v-out.show{display:block}
+.v-parse{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 16px;font-size:13px;margin-bottom:12px}
+.v-parse .pi{background:#f7f9fc;border:1px solid var(--line);border-radius:8px;padding:9px 12px}
+.v-parse .pi .k{font-size:11px;color:var(--faint)} .v-parse .pi .v{font-size:14px;font-weight:600;margin-top:2px;word-break:break-all}
+.v-status{font-size:13px;padding:10px 13px;border-radius:8px;margin-bottom:10px;display:none}
+.v-status.ok{background:var(--green-bg);color:var(--green);display:block}
+.v-status.warn{background:var(--orange-bg);color:var(--orange);display:block}
+.v-status.err{background:#fdeaea;color:#c0392b;display:block}
+.v-perm{background:#f7f9fc;border:1px solid var(--line);border-radius:8px;padding:10px 12px;font-size:12px;word-break:break-all;margin-bottom:10px}
+/* notes */
+.notes{font-size:13px;color:#3d4555}
+.notes h4{font-size:14px;margin:14px 0 6px;color:var(--ink);display:flex;gap:7px;align-items:center}
+.notes h4:first-child{margin-top:0}
+.notes ul{padding-left:20px} .notes li{margin:4px 0}
+.notes .hl{color:var(--orange);font-weight:600}
+.notes code{background:#eef1f5;padding:1px 6px;border-radius:4px;font-size:12px;font-family:ui-monospace,Consolas,monospace}
+.toast{position:fixed;left:50%;bottom:34px;transform:translateX(-50%) translateY(20px);background:#171a21;color:#fff;padding:10px 20px;
+  border-radius:9px;font-size:13.5px;opacity:0;pointer-events:none;transition:all .25s;z-index:99;box-shadow:0 8px 30px rgba(0,0,0,.3)}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.empty{text-align:center;padding:40px 20px;color:var(--faint);font-size:14px}
+@media (max-width:640px){
+  .stats{grid-template-columns:repeat(2,1fr)} .stat.k-total{grid-column:span 2}
+  .build{grid-template-columns:1fr} .b-actions{flex-direction:row;align-items:center;justify-content:flex-start}
+  .b-size{text-align:left} .b-grid{grid-template-columns:1fr} .v-parse{grid-template-columns:1fr}
+  header.top h1{font-size:19px}
+  /* 机型设置底部操作栏在窄屏换两行，避免“机型系统版本”被压成竖排文字 */
+  .modal-ft{flex-wrap:wrap;gap:8px 10px;padding:12px 14px}
+  .sel-all{order:1;margin-right:auto;gap:7px}
+  .chan-wrap{order:2;margin-right:0}
+  .chan-btn{padding:6px 9px;font-size:12px}
+  .chan-pop{width:210px}
+  #orderReset{order:3;margin-left:auto;padding:8px 12px}
+  #orderSave{order:4;padding:8px 14px}
+  .modal-mask{padding:0}
+  .modal{max-height:100vh;border-radius:0}
+}
+#dataSrcInput::placeholder{font-size:12px;color:#9aa4b2}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <h1><span class="logo"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg></span>魅族 Flyme 固件全量包查询工具</h1>
+    <div class="sub">聚合官网在列版本、官网已撤下的隐藏版本，以及同版本号不同构建日期的全量卡刷包，逐条给出可永久使用的官方 CDN 直链。</div>
+    <div class="meta" id="topMeta"></div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="tabs-zone">
+    <div class="tabs" id="tabs"></div>
+  </div>
+  <div class="stats" id="stats"></div>
+
+  <div class="toolbar">
+    <div class="search">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input id="searchInput" type="text" placeholder="搜索版本号 / 构建日期 / Hash / MD5…">
+      <button class="search-clear" id="searchClear" type="button" title="清空搜索" aria-label="清空搜索">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+    <div class="filters" id="filters">
+      <button class="chip on" data-f="all">全部</button>
+      <button class="chip" data-f="official">官网稳定版</button>
+      <button class="chip" data-f="factory">出厂系统</button>
+      <button class="chip" data-f="hidden">官网隐藏</button>
+      <button class="chip" data-f="multi">同版本多构建</button>
+      <button class="chip" data-f="beta">内测每日构建</button>
+      <button class="chip" data-f="variant">联名同平台</button>
+    </div>
+  </div>
+
+  <div id="list"></div>
+</div>
+
+<div class="wrap section">
+  <div class="sec-h"><span class="bar"></span>链接验证 / 还原器</div>
+  <div class="sec-sub">把任何一个 Flyme 固件链接（官网带 auth_key 的临时链接、download.meizu.com 永久链接，或只含 时间戳/Hash 的片段）粘贴进来，自动解析机型、版本、构建时间，并还原成永久免签直链。</div>
+  <div class="panel">
+    <textarea id="vInput" class="v-input" rows="3" placeholder="例如：https://download.meizu.com/Firmware/Flyme/meizu21/10.5.0.1/cn/20240131130221/7498d98a/update.zip&#10;或官网跳转后的 https://firmware-res.flyme.com/...?auth_key=xxxx 临时链接"></textarea>
+    <div class="v-btns">
+      <button class="btn btn-primary" id="vParse">解析并还原永久链接</button>
+      <button class="btn btn-ghost" id="vOpen">在浏览器中打开（下载验证）</button>
+      <button class="btn btn-ghost" id="vCopy">复制永久链接</button>
+    </div>
+    <div class="v-out" id="vOut">
+      <div class="v-status" id="vStatus"></div>
+      <div class="v-parse" id="vParseGrid"></div>
+      <div class="v-perm mono" id="vPerm"></div>
+    </div>
+  </div>
+</div>
+
+<div class="wrap section">
+  <div class="sec-h"><span class="bar"></span>说明：数据来源、全量包与增量包、覆盖边界</div>
+  <div class="panel notes">
+    <h4>一、各类标签分别代表什么</h4>
+    <ul>
+      <li><span class="tag official" style="font-size:11px">官网稳定版</span>&nbsp;魅族官网固件页当前仍可下载的稳定版（当前/历史）。</li>
+      <li><span class="tag factory" style="font-size:11px">出厂系统</span>&nbsp;官网单独提供的“出厂系统”卡刷包，用于刷回出厂版本（如 21 的 10.5.5.1、21 PRO 的 10.5.1.0/10.5.5.1）。</li>
+      <li><span class="tag hidden" style="font-size:11px">官网隐藏</span>&nbsp;官网已撤下、不再展示，但仍在官方 CDN 上的正式版（由官方固件汇总、固件库及社区帖子收录，本工具对直链进行连通性实测）。</li>
+      <li><span class="tag multi" style="font-size:11px">同版本多构建</span>&nbsp;<span class="hl">同一版本号、不同构建时间戳的额外正式包</span>（灰度/重新打包），体积与正式版不同，官方页面完全不展示。</li>
+      <li><span class="tag beta" style="font-size:11px">内测每日构建</span>&nbsp;CDN 路径为 <code>cn_daily</code>（每日构建）或 <code>cn_beta</code>（体验版）的<span class="hl">内测 / 体验包</span>；日构建版本号按日期编码（如 10.23.12.14 = 23 年 12 月 14 日的构建），<b>未公开发布</b>，仅内测渠道流出，数量庞大、默认折叠在“内测 / 体验版”分区。适合开发者 / 收藏，普通用户不建议刷。</li>
+      <li><span class="tag variant" style="font-size:11px">联名同平台</span>&nbsp;与 21 PRO 同硬件平台、由车厂换标推出的机型，<b>独立于 Flyme 版本列表、单独成区展示</b>：<b>Polestar Phone</b>（CDN 代号 PolestarPhone）、<b>Lynk&Co Phone Pro</b>（CDN 代号与 21 PRO 共用）。跨机型互刷前请务必确认机型与版本匹配。</li>
+      <li><span class="tag chan" style="font-size:11px">移动版</span> 等<b>系统版本（渠道）标签</b>：同一机型的运营商定制版与海外版，包括 <b>移动版 / 电信版 / 联通版 / 国际版 / 俄罗斯版 / 波兰版 / 印度版 / 阿里YunOS版</b> 等。它们与公开版共享版本号、但文件不同，故在同一版本下并列展示并加渠道标签；可在「机型设置 → 机型系统版本」里勾选是否显示。默认的<b>公开版</b>为销售主力版本，不另加渠道标签。</li>
+    </ul>
+    <h4>二、关于“同版本多日期”</h4>
+    <ul>
+      <li>魅族的版本号（如 10.5.0.1）并不唯一对应一个文件，正式发布前会有多次构建，CDN 路径里的 <code>14位时间戳</code> 和 <code>8位Hash</code> 才区分具体包。</li>
+      <li>例：魅族21 的 10.5.0.1 有 2024-01-31 与 2024-03-29 两个构建；10.5.5.1 有同一天相差 36 分钟的两个构建。本工具已把所有发现的同版本多构建并列展示。</li>
+      <li>CDN 存储桶<b>禁止目录列举</b>，时间戳精确到秒且无法推算，官方也没有公开的历史构建查询接口。因此额外构建只能靠“多源聚合 + 逐条验证”收集，<span class="hl">无法保证穷尽</span>——未被任何第三方收录、也未在论坛流出的内测包，任何工具都查不到。</li>
+    </ul>
+    <h4>三、全量包 vs 增量包</h4>
+    <ul>
+      <li>本工具列出的 <code>update.zip</code> <b>全部是数 GB 的全量卡刷包</b>，可直接本地升级或降级（降级需按官方教程清除数据）。</li>
+      <li><b>增量包（OTA 差分包，几十~几百 MB）</b>只由手机“系统更新”App 针对“你当前的具体旧版本 → 新版本”临时下发，走独立接口、带设备校验，<b>没有公开、可通用的独立直链</b>，无法在此提供。这是官方机制决定的，不是工具遗漏。</li>
+    </ul>
+    <h4>四、直链为什么是“永久”的</h4>
+    <ul>
+      <li>官网下载按钮给的是 <code>firmware-res.flyme.com/...?auth_key=…</code> 临时签名链接，会过期；把域名换成旧域名 <code>download.meizu.com</code> 并去掉 <code>auth_key</code>，即得到永久免签直链（本工具所有链接均为此形式；工具以 Range 请求实测连通性并读取真实体积，未通过的链接会标记为“CDN已失效”并禁用下载）。</li>
+      <li>路径中的 8 位 Hash 等于该版本 MD5 的末 8 位，可用于核对文件完整性。</li>
+    </ul>
+  </div>
+</div>
+
+<div class="modal-mask" id="orderModal">
+  <div class="modal">
+    <div class="modal-hd">
+      <div>
+        <div class="t">机型设置</div>
+        <div class="hint">勾选要在顶部常驻的机型，可自定义顺序；保存后下次打开仍保持</div>
+      </div>
+      <button class="modal-x" id="orderClose" aria-label="关闭">&times;</button>
+    </div>
+    <div class="modal-bd">
+      <div style="margin:0 0 12px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:#fafbfd">
+        <div style="font-size:12px;color:var(--sub);margin-bottom:6px">数据源地址（留空 = 无数据，工具不联网）</div>
+        <input type="text" id="dataSrcInput" placeholder="https://…/main/data/firmware.json" autocomplete="off" spellcheck="false"
+               style="width:100%;box-sizing:border-box;padding:8px 10px;border:1px solid var(--line);border-radius:8px;font-size:16px;line-height:1.3;font-family:ui-monospace,Consolas,monospace;background:#fff">
+        <div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap">
+          <button type="button" class="btn btn-ghost" id="dataSrcRefresh">立即刷新</button>
+          <button type="button" class="btn btn-ghost" id="dataSrcClear">清理缓存</button>
+          <button type="button" class="btn btn-ghost" id="dataSrcReset">恢复默认</button>
+        </div>
+        <div style="font-size:11px;color:var(--faint);margin-top:4px;word-break:break-all;line-height:1.5">例：https://raw.githubusercontent.com/用户名/仓库/main/data/firmware.json</div>
+        <div id="dataSrcState" style="font-size:11.5px;color:var(--faint);margin-top:4px">当前：未配置数据源（工具不联网）</div>
+      </div>
+      <div class="pin-help">勾选即在顶部常驻，数量不限；未勾选机型按上市时间由新到旧排列。常驻区每行固定 6 个，超出自动换行。</div>
+      <div class="set-search">
+        <span class="ss-ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></span>
+        <input type="text" id="setSearchInput" placeholder="搜索机型名称 / 代号，快速定位" autocomplete="off">
+        <button type="button" class="ss-x" id="setSearchClear" aria-label="清除">&times;</button>
+      </div>
+      <div id="pinListPinned"></div>
+      <div id="pinListOther"></div>
+    </div>
+    <div class="modal-ft">
+      <label class="sel-all"><input type="checkbox" id="selectAll">全选</label>
+      <div class="chan-wrap" id="chanWrap">
+        <button class="chan-btn" id="chanBtn" type="button">机型系统版本
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+        <div class="chan-pop" id="chanPop">
+          <label class="chan-row chan-all"><input type="checkbox" id="chanAll">全选渠道</label>
+          <div id="chanList"></div>
+          <div class="chan-tip">勾选要在正式版分区显示的系统版本（渠道）；内测 / 体验版与联名分区不受影响。</div>
+        </div>
+      </div>
+      <button class="btn btn-ghost" id="orderReset">恢复默认</button>
+      <button class="btn btn-primary" id="orderSave">保存设置</button>
+    </div>
+  </div>
+  <button class="toTopModal" id="toTopModal" type="button" aria-label="回到顶部" title="回到顶部">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+  </button>
+</div>
+
+<button class="toTop" id="toTopHome" type="button" aria-label="回到顶部" title="回到顶部">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+</button>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const FIRMWARE_DATA = {}
+</script>
+<script>
+(function(){
+  "use strict";
+  var DATA = FIRMWARE_DATA;
+  var SNAPSHOT;   // 数据快照日期：未配置数据源时为 undefined，加载成功后取 JSON 的 updated
+  var KIND_LABEL = {official:"官网稳定版",factory:"出厂系统",hidden:"官网隐藏",multi:"同版本多构建",beta:"内测每日构建",variant:"联名同平台"};
+  // 首次打开默认常驻的 4 个机型（“恢复默认”按钮另作“清空”处理，不回到此列表）
+  var DEFAULT_PINS = ["199","198","205","186"];
+  // 存储 key 带版本号：数据/默认机型结构每次升级时递增，避免读到旧版本残留的“全选”等状态
+  var PINS_KEY = "flyme_pins_v3";
+  var ALL_IDS = Object.keys(DATA);
+  // 正式版渠道（系统版本）；内测/联名走独立分区，不在此列
+  var CHANNELS=[["cn","公开版"],["mobile","移动版"],["telecom","电信版"],["unicom","联通版"],
+    ["global","国际版"],["russia","俄罗斯版"],["poland","波兰版"],["india","印度版"],
+    ["aliyun","阿里YunOS版"],["other","其他定制"]];
+  var CH_KEY="flyme_channels_v1";
+  var CH_IDS=CHANNELS.map(function(c){return c[0];});
+  function loadChannels(){
+    try{
+      var r=localStorage.getItem(CH_KEY);
+      if(r!=null){var a=JSON.parse(r);if(Array.isArray(a))return CH_IDS.filter(function(c){return a.indexOf(c)>=0;});}
+    }catch(e){}
+    return CH_IDS.filter(function(c){return c==="cn";});   // 默认只勾公开版
+  }
+  var channels=loadChannels();
+  // 当前数据中实际出现过的渠道（用于菜单计数）
+  function usedChannelCount(ch){
+    var n=0;
+    ALL_IDS.forEach(function(p){DATA[p].groups.forEach(function(g){if(g.isBeta||g.isVariant)return;
+      g.builds.forEach(function(b){if(b.channel===ch)n++;});});});
+    return n;
+  }
+  function loadPins(){
+    try{
+      var raw=localStorage.getItem(PINS_KEY);
+      if(raw!=null){
+        var arr=JSON.parse(raw);
+        if(Array.isArray(arr)){
+          return arr.filter(function(p,i,a){return a.indexOf(p)===i;});
+        }
+      }
+    }catch(e){}
+    return [];
+  }
+  var pins=loadPins();
+  var state = {phone:pins[0]||"", filter:"all", q:""};
+
+  /* ---------- 工具函数 ---------- */
+  function $(id){return document.getElementById(id);}
+  function fmtTs(ts){ // 20240131130221 -> 2024-01-31 13:02:21
+    if(!ts||ts.length!==14) return ts ? String(ts) : "无法获取";
+    return ts.slice(0,4)+"-"+ts.slice(4,6)+"-"+ts.slice(6,8)+" "+ts.slice(8,10)+":"+ts.slice(10,12)+":"+ts.slice(12,14);
+  }
+  function fmtDay(ts){return ts ? ts.slice(0,4)+"-"+ts.slice(4,6)+"-"+ts.slice(6,8) : "--";}
+  // 构建时间：无合法时间戳统一显示“无法获取”，不留空、不显示短编号
+  function tsLabelOf(b){ return b.isDiff ? b.ts : (b.ts ? b.ts : "无法获取"); }
+  function fmtSize(bytes){
+    if(!bytes) return "—";
+    var gb = bytes/1024/1024/1024;
+    return gb.toFixed(2)+" GB";
+  }
+  function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+  var toastTimer;
+  function toast(msg){
+    var t=$("toast"); t.textContent=msg; t.classList.add("show");
+    clearTimeout(toastTimer); toastTimer=setTimeout(function(){t.classList.remove("show");},2200);
+  }
+  function copy(text,label){
+    function ok(){toast((label||"链接")+" 已复制");};
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(ok).catch(function(){fallback();});
+    } else fallback();
+    function fallback(){
+      var ta=document.createElement("textarea");ta.value=text;ta.style.position="fixed";ta.style.opacity="0";
+      document.body.appendChild(ta);ta.select();
+      try{document.execCommand("copy");ok();}catch(e){toast("复制失败，请手动选择");}
+      document.body.removeChild(ta);
+    }
+  }
+
+  /* ---------- 统计 ---------- */
+  function countKinds(phone){
+    var c={total:0,official:0,factory:0,hidden:0,multi:0,beta:0,variant:0};
+    DATA[phone].groups.forEach(function(g){g.builds.forEach(function(b){
+      c.total++; c[b.kind]++;
+    });});
+    return c;
+  }
+
+  /* ---------- 机型 Tabs ---------- */
+  // 机型最早稳定版构建时间（近似上市时间，用于未勾选机型排序）
+  function launchTs(p){
+    if(!DATA[p]) return "";
+    var t="";
+    DATA[p].groups.forEach(function(g){
+      if(g.isBeta||g.isVariant) return;
+      g.builds.forEach(function(b){
+        if(b.isDiff) return;
+        if(!t||b.ts<t) t=b.ts;
+      });
+    });
+    return t;
+  }
+  // 全部机型按上市时间（最早稳定版构建）由新到旧
+  function naturalIds(){
+    return ALL_IDS.slice().sort(function(a,b){
+      var t=launchTs(b),s=launchTs(a);return t>s?1:t<s?-1:0;
+    });
+  }
+  // 顶部展示：常驻机型（自定义顺序）；主动清空（pins=[]）时为空，不再回退到全部机型
+  function displayIds(){ return pins.filter(function(p){return !!DATA[p];}); }
+  function renderTabs(){
+    var list=displayIds();
+    if(!list.length){
+      state.phone="";
+      $("tabs").innerHTML='<div class="tabs-empty">尚未选择任何机型 · 点击「机型设置」勾选要展示的机型，选择后此处显示固件卡片</div>';
+      $("topMeta").innerHTML='<span>当前机型 <b>未选择</b></span><span>数据快照 <b>'+(SNAPSHOT||'未加载')+'</b></span>';
+      return;
+    }
+    if(list.indexOf(state.phone)<0) state.phone=list[0];
+    var html="";
+    list.forEach(function(p){
+      var m=DATA[p], c=countKinds(p);
+      html+='<div class="tab'+(state.phone===p?" active":"")+'" data-phone="p'+p+'">'+
+        '<div style="min-width:0"><div class="tn">'+esc(m.name)+'</div>'+
+        '<div class="tc mono">代号 '+esc(m.code)+' · '+c.total+' 构建 / '+m.groups.length+' 版本</div></div>'+
+        '<span class="dot"></span></div>';
+    });
+    $("tabs").innerHTML=html;
+    Array.prototype.forEach.call(document.querySelectorAll(".tab"),function(t){
+      t.addEventListener("click",function(){
+        state.phone=t.getAttribute("data-phone").slice(1); renderAll();
+      });
+    });
+    var m=DATA[state.phone];
+    var c=countKinds(state.phone);
+    var dead=0;
+    DATA[state.phone].groups.forEach(function(g){g.builds.forEach(function(b){if(b.dead)dead++;});});
+    $("topMeta").innerHTML='<span>当前机型 <b>'+esc(m.name)+'</b>（'+esc(m.code)+'）</span>'+
+      '<span>聚合构建 <b>'+c.total+'</b> 个</span><span>数据快照 <b>'+(SNAPSHOT||'未加载')+'</b></span>'+
+      (dead?'<span>失效 <b style="color:#c0392b">'+dead+'</b> 个</span>':'<span>公开版直链 <b>永久免签</b></span>');
+  }
+
+  function renderStats(){
+    if(!state.phone){ $("stats").innerHTML=""; return; }
+    var c=countKinds(state.phone), f=state.filter;
+    // [样式类, 筛选key, 数量, 标签]
+    var items=[
+      ["k-total","all",c.total,"全量构建总数"],
+      ["k-official","official",c.official,"官网稳定版"],
+      ["k-factory","factory",c.factory,"出厂系统"],
+      ["k-hidden","hidden",c.hidden,"官网隐藏"],
+      ["k-multi","multi",c.multi,"同版本多构建"],
+      ["k-beta","beta",c.beta,"内测每日构建"],
+      ["k-variant","variant",c.variant,"联名同平台"]
+    ];
+    $("stats").innerHTML=items.map(function(it){
+      return '<div class="stat '+it[0]+(f===it[1]?" active":"")+'" data-f="'+it[1]+'" title="点击筛选：'+it[3]+'"><div class="n">'+it[2]+'</div><div class="l">'+it[3]+'</div></div>';
+    }).join("");
+    Array.prototype.forEach.call(document.querySelectorAll("#stats .stat"),function(st){
+      st.addEventListener("click",function(){setFilter(st.getAttribute("data-f"));});
+    });
+  }
+
+  /* ---------- 版本列表 ---------- */
+  function matchQ(b,gver,q){
+    if(!q) return true;
+    var hay=(gver+" "+b.ts+" "+b.hash+" "+(b.md5||"")+" "+b.model+" "+fmtTs(b.ts)).toLowerCase();
+    return hay.indexOf(q.toLowerCase())>=0;
+  }
+  // 版本号按点分段数值比较；返回 1 表示 a 旧于 b（b 新），用于降序
+  function cmpVer(a,b){
+    var x=String(a).split('.').map(function(s){return parseInt(s,10)||0;});
+    var y=String(b).split('.').map(function(s){return parseInt(s,10)||0;});
+    for(var i=0;i<Math.max(x.length,y.length);i++){
+      var d=(y[i]||0)-(x[i]||0);
+      if(d) return d;
+    }
+    return 0;
+  }
+  // 差分包 ts 形如 a-b，取较新的 b；普通包取自身 ts
+  function buildTs(b){ return b.isDiff ? String(b.ts).split("-")[1] : String(b.ts); }
+  // 组内构建按构建时间降序（最新在前）
+  function cmpTs(a,b){
+    var ta=buildTs(a),tb=buildTs(b);
+    if(tb>ta) return 1;
+    if(tb<ta) return -1;
+    return 0;
+  }
+  // 渠道（系统版本）筛选：只作用于正式版分区；内测、联名分区不受影响
+  function channelOk(b,g){
+    if(g.isBeta||g.isVariant) return true;
+    return channels.indexOf(b.channel)>=0;
+  }
+  function renderList(){
+    if(!state.phone){
+      $("list").innerHTML='<div class="panel empty">请先在「机型设置」中勾选机型，选择后此处显示对应固件版本与下载链接。</div>';
+      return;
+    }
+    var m=DATA[state.phone], q=state.q.trim(), f=state.filter;
+    // 先按分区收集（normal / beta / variant），同时完成筛选与组内排序
+    var zones={normal:[],beta:[],variant:[]};
+    m.groups.forEach(function(g){
+      var builds;
+      if(f==="multi"){
+        // 组级筛选：只保留“同版本有多个构建”的常规 Flyme 版本组，组内每个日期的构建都显示
+        if(g.isVariant || g.isBeta || g.builds.length<=1) return;
+        builds=g.builds.filter(function(b){return matchQ(b,g.ver,q)&&channelOk(b,g);});
+      } else if(f==="beta"){
+        if(!g.isBeta) return;
+        builds=g.builds.filter(function(b){return matchQ(b,g.ver,q);});
+      } else if(f==="variant"){
+        if(!g.isVariant) return;
+        builds=g.builds.filter(function(b){return matchQ(b,g.ver,q);});
+      } else {
+        builds=g.builds.filter(function(b){
+          if(f!=="all" && b.kind!==f) return false;
+          if(!channelOk(b,g)) return false;
+          if(!matchQ(b,g.ver,q)) return false;
+          return true;
+        });
+      }
+      if(!builds.length) return;
+      builds=builds.slice().sort(cmpTs);   // 组内最新构建在前
+      var zone=g.isVariant?"variant":(g.isBeta?"beta":"normal");
+      zones[zone].push({g:g,builds:builds});
+    });
+    // 正式版 / 内测分区按版本号降序（最新版本在前）；联名分区保持既定顺序
+    zones.normal.sort(function(a,b){return cmpVer(a.g.ver,b.g.ver);});
+    zones.beta.sort(function(a,b){return cmpVer(a.g.ver,b.g.ver);});
+
+    var zoneDefs=[
+      {key:"normal", label:"Flyme 固件版本 · Flyme firmware", cls:""},
+      {key:"variant",label:"同平台联名机型 · Co-branded", cls:"variant"},
+      {key:"beta",   label:"内测 / 体验版 · Beta & Daily（cn_daily 每日构建、cn_beta 体验版，非公开正式版，默认折叠）", cls:"beta"}
+    ];
+    var html="", any=false;
+    zoneDefs.forEach(function(zd){
+      var items=zones[zd.key];
+      if(!items.length) return;
+      any=true;
+      html+='<div class="section-label '+zd.cls+'"><span class="sl-dot"></span>'+zd.label+'<span class="sl-line"></span></div>';
+      items.forEach(function(item){
+        var g=item.g, builds=item.builds, shown=builds.length;
+        var gcls="group";
+        if(g.isVariant) gcls+=" open variant-group";
+        else if(g.isBeta) gcls+=" beta-group"+(f==="beta"?" open":"");   // 内测组默认折叠，单独筛选时展开
+        else gcls+=" open";
+        html+='<div class="'+gcls+'">';
+        if(g.isVariant){
+          html+='<div class="group-hd"><span class="gver gvariant-title">'+esc(g.title)+'</span>';
+          if(shown>1) html+='<span class="gmulti-flag variant">'+shown+' builds</span>';
+        } else {
+          html+='<div class="group-hd"><span class="gver"><span class="flyme">Flyme</span>'+esc(g.ver)+'</span>';
+          // 多构建徽标计数与实际列出的包保持一致（渠道/标签筛选后按实际显示数）
+          if(shown>1) html+='<span class="gmulti-flag">同版本 '+shown+' 个构建</span>';
+        }
+        html+='<span class="gcount">'+shown+' 个包 <svg class="chev" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 6 6 6-6 6"/></svg></span></div>';
+        html+='<div class="builds">';
+        builds.forEach(function(b){
+        var dead = b.dead;
+        var shownUrl = b.url;
+        var sizeHtml = dead ? '<div class="b-size dead">官方CDN已撤下</div>' :
+          (b.size ? '<div class="b-size">'+fmtSize(b.size)+'</div>' :
+                    '<div class="b-size" style="color:var(--faint)">体积未公示</div>');
+        var deadTag = dead ? '<span class="tag dead">CDN已失效</span>' : '';
+        var rel = b.releaseDate ? '<div><span class="k">官网发布</span><span class="v">'+esc(b.releaseDate)+'</span></div>' : '<div><span class="k">官网发布</span><span class="v" style="color:var(--faint)">未公示</span></div>';
+        var md5 = b.md5 ? '<div><span class="k">MD5</span><span class="v mono">'+esc(b.md5)+'</span></div>' : '<div><span class="k">MD5</span><span class="v" style="color:var(--faint)">官网未公示</span></div>';
+        // 按要求，卡片不再显示“联名机型”这一行
+        var vrow = "";
+        var dateLabel,timeLabel,tsLabel;
+        if(b.isDiff){
+          var pa=b.ts.split("-")[0],pb=b.ts.split("-")[1];
+          dateLabel=fmtDay(pa)+" → "+fmtDay(pb);
+          timeLabel="差分区间";
+          tsLabel=pa+" → "+pb;
+        } else if(!b.ts){
+          dateLabel="--"; timeLabel=""; tsLabel="无法获取";
+        } else {
+          dateLabel=fmtDay(b.ts);timeLabel=fmtTs(b.ts).slice(11);tsLabel=b.ts;
+        }
+        // 渠道（系统版本）标签：正式版且非公开版时显示；内测/联名分区不显示
+        var chanTag = (!g.isVariant && !g.isBeta && b.channel && b.channel!=="cn")
+          ? '<span class="tag chan">'+esc(b.channelLabel||"")+'</span>' : '';
+        html+='<div class="build"><div class="b-main">'+
+          '<div class="b-row1"><span class="b-date">'+esc(dateLabel)+'</span><span class="b-time mono">'+esc(timeLabel)+'</span>'+
+          '<span class="tag '+b.kind+'">'+KIND_LABEL[b.kind]+'</span>'+chanTag+(b.isDiff?'<span class="tag diff">增量差分包</span>':'<span class="tag full">全量卡刷包</span>')+deadTag+'</div>'+
+          '<div class="b-grid">'+
+            '<div><span class="k">版本</span><span class="v mono">'+(b.kind==="variant" ? esc(b.ver) : (b.kind==="beta" ? "Flyme "+esc(b.ver) : "Flyme "+esc(b.ver)+esc(b.suf||"")))+'</span></div>'+
+            '<div><span class="k">CDN代号</span><span class="v mono">'+esc(b.model)+'</span></div>'+
+            '<div><span class="k">构建时间</span><span class="v mono">'+esc(b.isDiff?'差分区间 '+tsLabel:tsLabel)+'</span></div>'+
+            '<div><span class="k">Hash</span><span class="v mono">'+esc(b.hash)+'</span></div>'+
+            vrow+md5+rel+
+          '</div>'+
+          '<div class="b-url mono'+(b.dead?' dead':'')+'">'+esc(shownUrl)+'</div>'+
+        '</div>'+
+        '<div class="b-actions">'+
+          sizeHtml+
+          (dead
+            ? '<button class="btn btn-dead" type="button" disabled>CDN已失效</button>'
+            : '<a class="btn btn-primary" href="'+esc(b.url)+'" target="_blank" rel="noopener">'+
+              '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14"/></svg>下载</a>')+
+          '<button class="btn btn-ghost" data-copy="'+esc(b.url)+'">复制链接</button>'+
+        '</div></div>';
+        });
+        html+='</div></div>';
+      });
+    });
+    if(!any) html='<div class="panel empty">没有符合条件的构建，试试切换筛选或清空搜索。</div>';
+    $("list").innerHTML=html;
+    Array.prototype.forEach.call(document.querySelectorAll("[data-copy]"),function(btn){
+      btn.addEventListener("click",function(){copy(btn.getAttribute("data-copy"),"下载直链");});
+    });
+    Array.prototype.forEach.call(document.querySelectorAll(".group-hd"),function(hd){
+      hd.addEventListener("click",function(){hd.parentNode.classList.toggle("open");});
+    });
+  }
+
+  function renderAll(){renderTabs();renderStats();renderList();}
+
+  /* ---------- 机型设置 ---------- */
+  var UP_SVG='<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 15 6-6 6 6"/></svg>';
+  var DOWN_SVG='<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>';
+  var draftPins=null;
+  var modalBox=$("orderModal").querySelector(".modal");
+  var btnHome=$("toTopHome"), btnModal=$("toTopModal");
+  function positionModalTop(){
+    var r=modalBox.getBoundingClientRect();
+    var ft=modalBox.querySelector(".modal-ft");
+    var top=(ft?ft.getBoundingClientRect().top:r.bottom-60)-48; // 始终浮在底部操作栏上方，不遮挡按钮
+    btnModal.style.left=(r.right-48)+"px";
+    btnModal.style.top=top+"px";
+  }
+  function updateModalTop(){
+    if(modalBox.scrollTop>220){positionModalTop();btnModal.classList.add("show");}
+    else btnModal.classList.remove("show");
+  }
+  function openSettings(){
+    draftPins=(pins||[]).filter(function(p){return !!DATA[p];}); renderSettings();
+    $("orderModal").classList.add("show");
+    modalBox.scrollTop=0; updateModalTop();
+  }
+  function closeSettings(){ $("orderModal").classList.remove("show"); btnModal.classList.remove("show"); try{ si.value=""; sx.classList.remove("show"); clearHit(); }catch(e){} }
+  function itemMain(p){
+    var m=DATA[p]; if(!m) return '';
+    return '<div class="oi-main"><div class="oi-name">'+esc(m.name)+'</div>'+
+      '<div class="oi-code mono">代号 '+esc(m.code)+'</div></div>';
+  }
+  // 未勾选机型：按上市时间（最早稳定版构建）由新到旧
+  function otherIds(){
+    return ALL_IDS.filter(function(p){return draftPins.indexOf(p)<0;})
+      .sort(function(a,b){var t=launchTs(b),s=launchTs(a);return t>s?1:t<s?-1:0;});
+  }
+  function groupLabel(txt){
+    return '<div class="pin-group-label">'+txt+'<span class="ln"></span></div>';
+  }
+  function renderSettings(){
+    var ph=draftPins.length?groupLabel("常驻显示 · 可自定义顺序"):"";
+    var n=draftPins.length;
+    draftPins.forEach(function(p,i){
+      ph+='<div class="order-item" data-p="'+p+'">'+
+        '<input type="checkbox" class="oi-check" checked data-act="pin" aria-label="取消常驻">'+
+        itemMain(p)+
+        '<button class="oi-btn" data-act="up" title="上移" aria-label="上移">'+UP_SVG+'</button>'+
+        '<button class="oi-btn" data-act="down" title="下移" aria-label="下移">'+DOWN_SVG+'</button>'+
+        '<input type="number" class="oi-seq" value="'+(i+1)+'" min="1" max="'+n+'" data-act="seq" title="输入序号后回车移动">'+
+      '</div>';
+    });
+    $("pinListPinned").innerHTML=ph;
+
+    var others=otherIds();
+    var oh=others.length?groupLabel("其他机型 · 按上市时间由新到旧"):"";
+    others.forEach(function(p){
+      var lt=launchTs(p);
+      oh+='<div class="order-item off" data-p="'+p+'">'+
+        '<input type="checkbox" class="oi-check" data-act="pin" aria-label="设为常驻">'+
+        itemMain(p)+
+        '<span class="oi-launch mono">'+(lt?fmtDay(lt):"—")+'</span>'+
+      '</div>';
+    });
+    $("pinListOther").innerHTML=oh;
+    bindSettings();
+    syncAllBox();
+    if(typeof si!=="undefined" && si.value) locate(si.value);
+  }
+  function bindSettings(){
+    Array.prototype.forEach.call($("pinListPinned").querySelectorAll(".order-item"),function(it){
+      var p=it.getAttribute("data-p");
+      it.querySelector('[data-act="pin"]').addEventListener("change",function(){unpin(p);});
+      it.querySelector('[data-act="up"]').addEventListener("click",function(){movePin(p,-1);});
+      it.querySelector('[data-act="down"]').addEventListener("click",function(){movePin(p,1);});
+      var seq=it.querySelector('[data-act="seq"]');
+      seq.addEventListener("change",function(){applySeq(p,seq);});
+      seq.addEventListener("keydown",function(e){if(e.key==="Enter")seq.blur();});
+    });
+    Array.prototype.forEach.call($("pinListOther").querySelectorAll(".order-item"),function(it){
+      var p=it.getAttribute("data-p");
+      it.querySelector('[data-act="pin"]').addEventListener("change",function(){addPin(p);});
+    });
+  }
+  function addPin(p){ draftPins.push(p); renderSettings(); }
+  function unpin(p){ var i=draftPins.indexOf(p); if(i>=0)draftPins.splice(i,1); renderSettings(); }
+  function movePin(p,dir){
+    var i=draftPins.indexOf(p),j=i+dir;
+    if(j<0||j>=draftPins.length)return;
+    var t=draftPins[i];draftPins[i]=draftPins[j];draftPins[j]=t;
+    renderSettings();
+  }
+  // 输入序号：该机移到第 N 位，其余顺延
+  function applySeq(p,input){
+    var n=parseInt(input.value,10);
+    if(isNaN(n)){renderSettings();return;}
+    n=Math.max(1,Math.min(draftPins.length,n));
+    var cur=draftPins.indexOf(p);
+    if(n-1===cur){renderSettings();return;}
+    var arr=draftPins.slice();
+    arr.splice(cur,1); arr.splice(n-1,0,p);
+    draftPins=arr; renderSettings();
+  }
+  // 供页面注入层调用：打开机型设置弹窗 + 预填当前数据源地址
+  window.flymeOpenSettings=openSettings;
+  window.flymePrefillSrc=function(){ var e=document.getElementById('dataSrcInput'); if(e){ try{ e.value=srcGet(); }catch(x){} } };
+  $("orderClose").addEventListener("click",closeSettings);
+  $("orderModal").addEventListener("click",function(e){if(e.target===$("orderModal"))closeSettings();});
+  // 一键回到顶部：弹窗滚动
+  modalBox.addEventListener("scroll",updateModalTop,{passive:true});
+  btnModal.addEventListener("click",function(){modalBox.scrollTo({top:0,behavior:"smooth"});});
+  // 一键回到顶部：主页滚动
+  function updateHomeTop(){
+    var sy=window.pageYOffset||document.documentElement.scrollTop||document.body.scrollTop||0;
+    btnHome.classList.toggle("show",sy>320);
+  }
+  window.addEventListener("scroll",updateHomeTop,{passive:true});
+  window.addEventListener("resize",function(){updateHomeTop();if(btnModal.classList.contains("show"))positionModalTop();});
+  btnHome.addEventListener("click",function(){window.scrollTo({top:0,behavior:"smooth"});});
+  $("orderReset").addEventListener("click",function(){
+    draftPins=[]; renderSettings(); syncAllBox(); toast("已清空全部常驻，点击保存生效");
+  });
+  $("orderSave").addEventListener("click",function(){
+    pins=draftPins.slice();
+    try{localStorage.setItem(PINS_KEY,JSON.stringify(pins));}catch(e){}
+    if(window.flymeStore&&window.flymeStore.set){try{window.flymeStore.set(JSON.stringify(pins));}catch(e){}}
+    if(window.flymePins&&window.flymePins.set){try{window.flymePins.set(JSON.stringify(pins));}catch(e){}}
+    if(window.webkit&&window.webkit.messageHandlers&&window.webkit.messageHandlers.FlymePins){try{window.webkit.messageHandlers.FlymePins.postMessage('set:'+JSON.stringify(pins));}catch(e){}}
+    var list=displayIds();
+    state.phone = list.length ? (list.indexOf(state.phone)<0 ? list[0] : state.phone) : "";
+    closeSettings(); renderAll(); toast("机型设置已保存");
+  });
+
+  /* ---------- 设置页：搜索定位 + 全选 ---------- */
+  function clearHit(){
+    Array.prototype.forEach.call(document.querySelectorAll(".order-item.hit"),function(x){
+      x.classList.remove("hit");
+    });
+  }
+  // 规范化：忽略空格、常见分隔符与大小写，使“魅族22”可命中“魅族 22”
+  function normStr(s){
+    return String(s==null?"":s).toLowerCase().replace(/[\s\-_·・/／（）()]+/g,"");
+  }
+  function scrollIntoModal(tgt){
+    var modal=$("orderModal").querySelector(".modal");
+    if(!tgt||!modal) return;
+    var mb=tgt.getBoundingClientRect(), mr=modal.getBoundingClientRect();
+    if(mb.top<mr.top+40 || mb.bottom>mr.bottom-40){
+      modal.scrollTop += mb.top-mr.top-(mr.height-mb.height)/2;
+    }
+  }
+  // 真实键盘输入时，浏览器在按键事件后会把焦点输入框自动滚回可视区，
+  // 若在 input 事件里同步把列表滚到目标，会被这次回弹拉回。因此：
+  // 立即滚一次（粘贴/合成输入即时生效），再防抖延迟滚到最新目标（纠正键盘回弹）。
+  var locatePending=null, locateScheduled=false;
+  function locate(q){
+    var raw=q.trim();
+    clearHit();
+    if(!raw){locatePending=null;return;}
+    var nq=normStr(raw);
+    var all=document.querySelectorAll("#pinListPinned .order-item,#pinListOther .order-item");
+    var first=null;
+    for(var i=0;i<all.length;i++){
+      var p=all[i].getAttribute("data-p"), m=DATA[p];
+      var hay=normStr(m.name+" "+String(m.code)+" "+(m.cdn||[]).join(" "));
+      if(hay.indexOf(nq)>=0){
+        all[i].classList.add("hit");
+        if(!first) first=all[i];
+      }
+    }
+    if(first){
+      locatePending=first;
+      scrollIntoModal(first);
+      if(!locateScheduled){
+        locateScheduled=true;
+        setTimeout(function(){
+          locateScheduled=false;
+          if(locatePending) scrollIntoModal(locatePending);
+        },60);
+      }
+    }
+  }
+  var si=$("setSearchInput"), sx=$("setSearchClear");
+  si.addEventListener("input",function(){
+    sx.classList.toggle("show",!!si.value);
+    locate(si.value);
+  });
+  sx.addEventListener("click",function(){
+    si.value=""; sx.classList.remove("show"); clearHit(); si.focus();
+  });
+  function syncAllBox(){
+    var box=$("selectAll");
+    box.checked=ALL_IDS.length>0 && draftPins.length===ALL_IDS.length;
+    box.indeterminate=ALL_IDS.length>0 && draftPins.length>0 && draftPins.length<ALL_IDS.length;
+  }
+  $("selectAll").addEventListener("change",function(){
+    // 全选后按上市时间由新到旧排列（22 在最前），而非数据文件的由老到新
+    draftPins=this.checked ? naturalIds() : [];
+    renderSettings();
+  });
+
+  /* ---------- 机型系统版本（渠道）二级菜单 ---------- */
+  function renderChanList(){
+    var html="";
+    CHANNELS.forEach(function(c){
+      var id=c[0],label=c[1];
+      var on=channels.indexOf(id)>=0;
+      html+='<label class="chan-row"><input type="checkbox" data-ch="'+id+'"'+(on?" checked":"")+'>'+
+        '<span>'+label+'</span><span class="cnt">'+usedChannelCount(id)+'</span></label>';
+    });
+    $("chanList").innerHTML=html;
+    Array.prototype.forEach.call($("chanList").querySelectorAll("input"),function(cb){
+      cb.addEventListener("change",function(){
+        var id=cb.getAttribute("data-ch");
+        var i=channels.indexOf(id);
+        if(cb.checked && i<0) channels.push(id);
+        if(!cb.checked && i>=0) channels.splice(i,1);
+        try{localStorage.setItem(CH_KEY,JSON.stringify(channels));}catch(e){}
+        syncChanAll();
+        if(state.phone) renderList();
+      });
+    });
+    syncChanAll();
+  }
+  function syncChanAll(){
+    var box=$("chanAll");
+    box.checked=channels.length===CH_IDS.length;
+    box.indeterminate=channels.length>0 && channels.length<CH_IDS.length;
+  }
+  $("chanBtn").addEventListener("click",function(e){
+    e.stopPropagation();
+    $("chanWrap").classList.toggle("open");
+  });
+  $("chanPop").addEventListener("click",function(e){e.stopPropagation();});
+  document.addEventListener("click",function(e){
+    if(!$("chanWrap").contains(e.target)) $("chanWrap").classList.remove("open");
+  });
+  $("chanAll").addEventListener("change",function(){
+    channels=this.checked ? CH_IDS.slice() : [];
+    try{localStorage.setItem(CH_KEY,JSON.stringify(channels));}catch(e){}
+    renderChanList();
+    if(state.phone) renderList();
+  });
+  renderChanList();
+
+  /* ---------- 筛选交互（统计卡片与筛选按钮共用，双向联动高亮） ---------- */
+  function setFilter(f){
+    state.filter=f;
+    Array.prototype.forEach.call(document.querySelectorAll("#filters .chip"),function(x){
+      x.classList.toggle("on",x.getAttribute("data-f")===f);
+    });
+    Array.prototype.forEach.call(document.querySelectorAll("#stats .stat"),function(x){
+      x.classList.toggle("active",x.getAttribute("data-f")===f);
+    });
+    renderList();
+  }
+  Array.prototype.forEach.call(document.querySelectorAll("#filters .chip"),function(ch){
+    ch.addEventListener("click",function(){setFilter(ch.getAttribute("data-f"));});
+  });
+  function syncSearchClear(){
+    var v=$("searchInput").value;
+    $("searchClear").classList.toggle("show",!!v);
+  }
+  $("searchInput").addEventListener("input",function(){state.q=this.value;syncSearchClear();renderList();});
+  $("searchClear").addEventListener("click",function(){
+    var inp=$("searchInput");
+    inp.value=""; state.q=""; inp.focus();
+    syncSearchClear(); renderList();
+  });
+
+  /* ---------- 链接验证 / 还原 ---------- */
+  // 按 CDN 代号反查机型名（覆盖全部机型；同名平台的标注共用代号）
+  function findPhoneByModel(model){
+    var pid=null;
+    ALL_IDS.some(function(p){
+      var m=DATA[p];
+      if(m.internal===model||m.cdn.indexOf(model)>=0){pid=p;return true;}
+      return false;
+    });
+    if(pid) return DATA[pid].name;
+    return "";
+  }
+  function parseFlymeUrl(raw){
+    var s=raw.trim();
+    // 兼容 firmware-res.flyme.com 临时链接与 download.meizu.com 永久链接
+    var m=s.match(/Firmware\/Flyme\/([^\/]+)\/([^\/]+)\/([^\/]+)\/(\d{14})\/([0-9a-fA-F]{8})\/(?:update\.zip)?/i);
+    if(!m) return null;
+    var model=m[1],ver=m[2],region=m[3],ts=m[4],hash=m[5].toLowerCase();
+    var perm="https://download.meizu.com/Firmware/Flyme/"+model+"/"+ver+"/"+region+"/"+ts+"/"+hash+"/update.zip";
+    return {model:model,ver:ver,region:region,ts:ts,hash:hash,perm:perm};
+  }
+  function setStatus(cls,msg){var el=$("vStatus");el.className="v-status "+cls;el.textContent=msg;}
+  var lastPerm="";
+  function doParse(){
+    var raw=$("vInput").value;
+    var p=parseFlymeUrl(raw);
+    if(!p){
+      $("vOut").classList.add("show");
+      $("vParseGrid").innerHTML="";$("vPerm").textContent="";
+      setStatus("err","无法识别。请粘贴包含 Firmware/Flyme/机型/版本/cn/14位时间戳/8位Hash 的官方链接。");
+      lastPerm="";return;
+    }
+    lastPerm=p.perm;
+    var phoneLabel=findPhoneByModel(p.model)||("未知机型代号 "+p.model);
+    $("vParseGrid").innerHTML=
+      pi("机型",esc(phoneLabel))+pi("版本号",esc(p.ver))+
+      pi("构建时间",esc(fmtTs(p.ts)))+pi("区域",esc(p.region))+
+      pi("机型代号",esc(p.model))+pi("8位Hash",esc(p.hash));
+    $("vPerm").textContent=p.perm;
+    setStatus("warn","已解析并还原为永久直链。点击“在浏览器中打开”可直接下载验证（能下载即有效）；浏览器安全策略可能限制本页直接读取文件大小，属正常现象。");
+    $("vOut").classList.add("show");
+    // 尝试探测大小（若 CDN 允许跨域）
+    fetch(p.perm,{method:"GET",headers:{Range:"bytes=0-0"},mode:"cors"}).then(function(r){
+      var cr=r.headers.get("Content-Range");
+      if(cr){var mm=cr.match(/\/(\d+)/);if(mm){setStatus("ok","链接有效（HTTP "+r.status+"），文件大小 "+fmtSize(parseInt(mm[1],10))+"。");}}
+    }).catch(function(){/* CORS 受限，保留提示 */});
+  }
+  function pi(k,v){return '<div class="pi"><div class="k">'+k+'</div><div class="v mono">'+v+'</div></div>';}
+  $("vParse").addEventListener("click",doParse);
+  $("vCopy").addEventListener("click",function(){if(lastPerm)copy(lastPerm,"永久直链");else toast("请先解析链接");});
+  $("vOpen").addEventListener("click",function(){
+    if(!lastPerm){doParse();}
+    if(lastPerm) window.open(lastPerm,"_blank","noopener");
+  });
+
+  renderAll();
+
+/* ================= 远程数据源 ================= */
+var SRC_KEY='flyme_data_source', CACHE_KEY='flyme_data_cache', TS_KEY='flyme_data_ts', MAX_AGE=6*3600*1000;
+function srcGet(){ try{ return localStorage.getItem(SRC_KEY)||''; }catch(e){ return ''; } }
+function srcSet(v){ try{ localStorage.setItem(SRC_KEY, v||''); }catch(e){} }
+function fmtDT(d){function p(n){return n<10?'0'+n:''+n}return d.getFullYear()+'/'+p(d.getMonth()+1)+'/'+p(d.getDate())+' '+p(d.getHours())+':'+p(d.getMinutes())+':'+p(d.getSeconds());}
+function srcState(t){ var el=$('dataSrcState'); if(el) el.textContent=t; }
+function mergeRemote(text){
+  var j; try{ j=JSON.parse(text); }catch(e){ return false; }
+  var phones=j&&(j.phones||j); if(!phones||typeof phones!=='object') return false;
+  if(j.updated) SNAPSHOT=String(j.updated).slice(0,10);
+  var added=0, patched=0;
+  Object.keys(phones).forEach(function(pid){
+    var sg0=phones[pid]; if(!sg0||!sg0.groups) return;
+    var dst=DATA[pid];
+    if(!dst){ DATA[pid]=sg0; added++; return; }
+    sg0.groups.forEach(function(sg){
+      var g=null;
+      for(var i=0;i<dst.groups.length;i++){ if(dst.groups[i].ver===sg.ver){ g=dst.groups[i]; break; } }
+      if(!g){ g={ver:sg.ver,isVariant:!!sg.isVariant,builds:[]}; dst.groups.push(g); }
+      (sg.builds||[]).forEach(function(b){
+        var hit=null;
+        for(var k=0;k<g.builds.length;k++){ var x=g.builds[k];
+          if(x.model===b.model && x.ts===b.ts && x.hash===b.hash){ hit=x; break; } }
+        if(hit){
+          ['md5','releaseDate','size','url','kind','note','dead'].forEach(function(f){
+            if((hit[f]===undefined||hit[f]===''||hit[f]===0) && b[f]!==undefined && b[f]!=='') hit[f]=b[f];
+          });
+          patched++;
+        } else { g.builds.push(b); added++; }
+      });
+      g.builds.sort(function(a,b){ return String(b.ts).localeCompare(String(a.ts)); });
+    });
+    dst.groups.sort(function(a,b){
+      var A=a.isBeta||a.isVariant?1:0, B=b.isBeta||b.isVariant?1:0;
+      if(A!==B) return A-B;
+      return String(a.ver).localeCompare(String(b.ver),undefined,{numeric:true});
+    });
+  });
+  if(added||patched){
+    ALL_IDS=Object.keys(DATA);
+    renderAll();
+  }
+  return true;
+}
+window.flymeBridgeError=function(msg){ srcState('获取失败：'+msg); };
+window.flymeApplyRemote=function(text){
+  if(!text){ srcState('获取失败：本机代取没有返回内容'); return; }
+  try{ localStorage.setItem(CACHE_KEY,text); localStorage.setItem(TS_KEY,String(Date.now())); }catch(e){}
+  var ok=mergeRemote(text);
+  srcState(ok?('已更新（'+fmtDT(new Date())+'）'):'远程数据格式不正确，已忽略');
+  emptyHint();
+};
+function emptyHint(){
+  if(Object.keys(DATA).length) return;
+  var t=$('tabs');
+  if(t) t.innerHTML='<div class="tabs-empty">暂无数据 · 点击「机型设置」，在最上方填写「数据源地址」后点「立即刷新」（留空则工具无数据）</div>';
+}
+function applyRemoteData(force){
+  var url=srcGet().trim();
+  if(!url){ srcState('当前：未配置数据源（工具不联网）'); return; }
+  var cache=null, ts=0;
+  try{ cache=localStorage.getItem(CACHE_KEY); ts=parseInt(localStorage.getItem(TS_KEY)||'0',10); }catch(e){}
+  if(!force && cache && (Date.now()-ts)<MAX_AGE){
+    if(mergeRemote(cache)){ srcState('已使用本地缓存（'+fmtDT(new Date(ts))+'），6 小时内不重复下载'); emptyHint(); return; }
+  }
+  srcState('正在获取数据…');
+  if(window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.FlymeData){
+    window.webkit.messageHandlers.FlymeData.postMessage(url);
+    srcState('已请求本机代取数据…');
+    return;
+  }
+  var xhr=new XMLHttpRequest();
+  xhr.open('GET',url,true); xhr.timeout=20000;
+  xhr.onload=function(){
+    if(xhr.status===200){
+      try{ localStorage.setItem(CACHE_KEY,xhr.responseText); localStorage.setItem(TS_KEY,String(Date.now())); }catch(e){}
+      if(mergeRemote(xhr.responseText)) srcState('已更新（'+fmtDT(new Date())+'）');
+      else srcState('远程数据格式不正确，已忽略');
+    } else if(xhr.status===304){ srcState('远程数据无变化'); }
+    else { srcState('获取失败（HTTP '+xhr.status+'），无数据可用'); }
+    emptyHint();
+  };
+  xhr.onerror=function(){ srcState('获取失败（网络或跨域限制），无数据可用'); emptyHint(); };
+  xhr.ontimeout=function(){ srcState('获取超时，无数据可用'); emptyHint(); };
+  xhr.send();
+}
+document.addEventListener('DOMContentLoaded',function(){
+  var inp=$('dataSrcInput'), rst=$('dataSrcReset'), rfs=$('dataSrcRefresh'), clr=$('dataSrcClear');
+  function draft(){ return inp? inp.value.trim() : ''; }
+  function clearRuntime(){
+    for(var k in DATA){ delete DATA[k]; }
+    SNAPSHOT = undefined;      // 无数据源时快照显示 undefined
+    ALL_IDS=Object.keys(DATA);
+    pins=[]; state.phone="";
+    var si=$('searchInput'); if(si) si.value='';
+    renderAll(); emptyHint();
+  }
+  function commitAndLoad(u){
+    srcSet(u); clearRuntime();
+    if(!u){ srcState('已恢复默认：未配置数据源（工具不联网）'); return; }
+    srcState('正在获取数据…'); applyRemoteData(true);
+  }
+  if(inp){ inp.addEventListener('change', function(){ srcState('地址已修改，点「保存设置」或「立即刷新」生效'); }); }
+  if(rfs){ rfs.addEventListener('click', function(){ commitAndLoad(draft()); }); }
+  if(clr){ clr.addEventListener('click', function(){
+    try{ localStorage.removeItem(CACHE_KEY); localStorage.removeItem(TS_KEY); }catch(e){}
+    srcState('缓存已清理（界面上的数据仍在内存中；点「立即刷新」会重新下载）');
+  }); }
+  if(rst){ rst.addEventListener('click', function(){
+    if(inp) inp.value='';
+    try{ localStorage.removeItem(CACHE_KEY); localStorage.removeItem(TS_KEY); }catch(e){}
+    commitAndLoad('');
+  }); }
+  var saveBtn=$('orderSave');
+  if(saveBtn){ saveBtn.addEventListener('click', function(){
+    var v=draft(), old=srcGet().trim();
+    srcSet(v);
+    if(v!==old){
+      clearRuntime();
+      if(v){ srcState('正在获取数据…'); applyRemoteData(true); }
+      else { srcState('已恢复默认：未配置数据源（工具不联网）'); }
+    }
+  }); }
+  if(window.flymeStore&&window.flymeStore.get){
+    try{
+      window.flymeStore.get().then(function(v){
+        if(!v) return;
+        try{
+          var a=JSON.parse(v);
+          if(Array.isArray(a)&&a.length){ pins=a; if(!state.phone) state.phone=pins[0]; renderAll(); }
+        }catch(e){}
+      }).catch(function(){});
+    }catch(e){}
+  }
+  window.flymePinsApply=function(t){
+    try{
+      var a=JSON.parse(t||'[]');
+      if(Array.isArray(a)&&a.length){ pins=a; if(!state.phone) state.phone=pins[0]; renderAll(); }
+    }catch(e){}
+  };
+  if(window.flymePins&&window.flymePins.get){ try{ window.flymePinsApply(window.flymePins.get()); }catch(e){} }
+  if(window.webkit&&window.webkit.messageHandlers&&window.webkit.messageHandlers.FlymePins){ try{ window.webkit.messageHandlers.FlymePins.postMessage('get'); }catch(e){} }
+  applyRemoteData(false);
+  emptyHint();
+});;
+})();
+</script>
+
+<!-- ==== 一级菜单 + 文档同步（注入） ==== -->
+<style>
+/* ===== 一级菜单 / 二级面板 样式（页面注入） ===== */
+.logo {
+  cursor: pointer;
+  transition: transform .15s ease, box-shadow .15s ease;
+  position: relative;
+}
+.logo:hover { transform: scale(1.06); }
+.logo:active { transform: scale(.96); }
+
+/* 一级菜单 */
+.fx-mask {
+  position: fixed; inset: 0; z-index: 9998;
+  background: rgba(15, 20, 30, .48);
+  display: none; align-items: center; justify-content: center;
+  padding: 20px;
+}
+.fx-mask.show { display: flex; }
+
+.fx-card {
+  width: 100%; max-width: 380px;
+  background: #fff; border-radius: 14px;
+  box-shadow: 0 18px 48px rgba(10, 24, 40, .28);
+  overflow: hidden;
+}
+
+.fx-hd {
+  padding: 16px 18px 12px;
+  border-bottom: 1px solid #eef2f6;
+  display: flex; align-items: flex-start; justify-content: space-between;
+}
+.fx-hd .t { font-size: 15.5px; font-weight: 700; color: #17222e; }
+.fx-hd .h { font-size: 12px; color: #7b8a99; margin-top: 3px; }
+.fx-x {
+  border: 0; background: #f2f5f8; color: #5b6b7c;
+  width: 26px; height: 26px; border-radius: 8px; cursor: pointer;
+  font-size: 16px; line-height: 1; flex: 0 0 auto;
+}
+.fx-x:hover { background: #e8eef4; }
+
+.fx-list { padding: 10px; }
+.fx-item {
+  display: flex; align-items: center; gap: 12px;
+  padding: 13px 12px; border-radius: 12px; cursor: pointer;
+  transition: background .13s ease;
+}
+.fx-item:hover { background: #f4f8fc; }
+.fx-item + .fx-item { margin-top: 4px; }
+
+.fx-ico {
+  width: 38px; height: 38px; border-radius: 11px; flex: 0 0 auto;
+  display: flex; align-items: center; justify-content: center;
+  background: linear-gradient(135deg, #0095FF, #4ab0ff);
+  color: #fff;
+}
+.fx-ico.green { background: linear-gradient(135deg, #12a35a, #35c37c); }
+.fx-body { flex: 1; min-width: 0; }
+.fx-body .n { font-size: 14px; font-weight: 600; color: #1b2836; }
+.fx-body .d { font-size: 12px; color: #7b8a99; margin-top: 2px; }
+.fx-arrow { color: #b6c2cd; font-size: 18px; flex: 0 0 auto; }
+
+.fx-ft {
+  padding: 10px 14px 14px; border-top: 1px solid #eef2f6;
+  font-size: 11.5px; color: #98a6b3; text-align: center;
+}
+
+/* 二级：文档同步 */
+.fx-card.wide { max-width: 640px; }
+.fx-bd { padding: 14px 16px 6px; max-height: min(70vh, 660px); overflow: auto; }
+
+.fx-step { margin-bottom: 14px; }
+.fx-step .lab {
+  font-size: 12.5px; color: #5b6b7c; margin-bottom: 6px;
+  display: flex; align-items: center; gap: 6px;
+}
+.fx-step .num {
+  width: 17px; height: 17px; border-radius: 50%; background: #0095FF; color: #fff;
+  font-size: 11px; display: inline-flex; align-items: center; justify-content: center;
+  flex: 0 0 auto;
+}
+.fx-ta {
+  width: 100%; min-height: 108px; resize: vertical;
+  border: 1px solid #e3e9f0; border-radius: 10px; padding: 9px 11px;
+  font: 12px/1.55 Consolas, Menlo, monospace; color: #1c2833; background: #fbfcfe;
+  outline: none; box-sizing: border-box;
+}
+.fx-ta:focus { border-color: #0095FF; background: #fff; }
+
+.fx-row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: 8px; }
+.fx-btn {
+  border: 0; border-radius: 9px; padding: 8px 14px; font-size: 13px; font-weight: 600;
+  background: #eef3f8; color: #27506e; cursor: pointer;
+}
+.fx-btn:hover { filter: brightness(.97); }
+.fx-btn.primary { background: #0095FF; color: #fff; }
+.fx-btn:disabled { opacity: .45; cursor: not-allowed; }
+.fx-note { font-size: 12px; color: #8798a8; margin-top: 8px; line-height: 1.6; }
+
+.fx-stat { display: flex; gap: 16px; flex-wrap: wrap; font-size: 12.5px; margin: 4px 0 10px; }
+.fx-stat b { font-size: 17px; margin-left: 3px; }
+
+.fx-listbox {
+  max-height: 260px; overflow: auto; border: 1px solid #eef2f6; border-radius: 9px;
+  padding: 9px 11px; background: #fbfcfe; font: 11.5px/1.65 Consolas, Menlo, monospace;
+}
+.fx-listbox .it { margin-bottom: 6px; word-break: break-all; }
+.fx-tag {
+  display: inline-block; padding: 0 7px; border-radius: 20px;
+  font-size: 11px; font-weight: 700;
+}
+.fx-tag.a { background: #e6f6ec; color: #0f9d58; }
+.fx-tag.c { background: #fdf3e3; color: #a8690b; }
+.fx-tag.l { background: #f0ebf4; color: #8a6d9c; }
+
+.fx-toast {
+  position: fixed; left: 50%; bottom: 28px; transform: translateX(-50%) translateY(12px);
+  background: #17222e; color: #fff; padding: 9px 18px; border-radius: 20px;
+  font-size: 13px; opacity: 0; pointer-events: none; transition: .2s; z-index: 10001;
+}
+.fx-toast.show { opacity: .96; transform: translateX(-50%) translateY(0); }
+
+.fx-inp {
+  width: 100%; box-sizing: border-box;
+  border: 1px solid #e3e9f0; border-radius: 10px;
+  padding: 9px 11px; font: 12.5px/1.5 Consolas, Menlo, monospace;
+  color: #1c2833; background: #fbfcfe; outline: none;
+  margin-bottom: 8px;
+}
+.fx-inp:focus { border-color: #0095FF; background: #fff; }
+.fx-inp::placeholder { color: #a9b6c2; font-size: 11.5px; }
+
+.fx-inp-wrap { position: relative; margin-bottom: 8px; }
+.fx-inp-wrap .fx-inp { margin-bottom: 0; padding-right: 36px; }
+.fx-inp-help {
+  position: absolute; right: 6px; top: 50%; transform: translateY(-50%);
+  width: 22px; height: 22px; border-radius: 50%;
+  border: 1px solid #d9e2ea; background: #fff; color: #8b99a6;
+  font-size: 12px; font-weight: 700; line-height: 1; cursor: pointer;
+  padding: 0;
+}
+.fx-inp-help:hover { background: #f2f7fb; color: #0095FF; border-color: #b9d6ea; }
+.fx-inp-help:active { transform: translateY(-50%) scale(.94); }
+.fx-help-pop {
+  background: #fbfcfe; border: 1px solid #e3e9f0; border-radius: 10px;
+  padding: 9px 11px; margin: -2px 0 8px;
+  font: 11.5px/1.75 Consolas, Menlo, monospace; color: #8b99a6;
+  word-break: break-all;
+}
+
+/* 工作簿勾选浮层：窄屏时左右贴边，避免溢出 */
+#fxSheetPop { max-width: calc(100vw - 20px); }
+@media (max-width: 480px) {
+  #fxSheetPop { left: 10px !important; right: 10px !important; width: auto !important; }
+}
+
+</style>
+<script>
+/* ===== 一级菜单 + 二级面板（页面注入脚本） =====
+ * 不改动页面原有逻辑：
+ *  - 头部图标打开一级菜单；机型设置直接调用页面暴露的 window.flymeOpenSettings
+ *  - 头部蓝底 logo 图标变为可点击 → 打开一级菜单
+ *  - 入口1：机型设置（调用 window.flymeOpenSettings）
+ *  - 入口2：文档同步（HTML 端只做粘贴比对）
+ */
+(function () {
+  'use strict';
+
+  var $ = function (id) { return document.getElementById(id); };
+
+  /* ---------- 工具 ---------- */
+  function toast(msg) {
+    var t = document.createElement('div');
+    t.className = 'fx-toast';
+    t.textContent = msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function () { t.classList.add('show'); });
+    setTimeout(function () {
+      t.classList.remove('show');
+      setTimeout(function () { t.remove(); }, 250);
+    }, 1500);
+  }
+
+  function el(html) {
+    var d = document.createElement('div');
+    d.innerHTML = html.trim();
+    return d.firstChild;
+  }
+
+  /* ---------- 一级菜单 ---------- */
+  var l1 = null;
+
+  function buildL1() {
+    l1 = el(
+      '<div class="fx-mask" id="fxL1">' +
+      '  <div class="fx-card" role="dialog" aria-label="菜单">' +
+      '    <div class="fx-hd">' +
+      '      <div><div class="t">设置与工具</div><div class="h">选择要打开的模块</div></div>' +
+      '      <button class="fx-x" data-close="1" aria-label="关闭">×</button>' +
+      '    </div>' +
+      '    <div class="fx-list">' +
+      '      <div class="fx-item" id="fxEntrySettings">' +
+      '        <div class="fx-ico">' +
+      '          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9 7 7M17 17l2.1 2.1M19.1 4.9 17 7M7 17l-2.1 2.1"/></svg>' +
+      '        </div>' +
+      '        <div class="fx-body"><div class="n">机型设置</div><div class="d">数据源地址、常驻机型、排序</div></div>' +
+      '        <div class="fx-arrow">›</div>' +
+      '      </div>' +
+      '      <div class="fx-item" id="fxEntrySync">' +
+      '        <div class="fx-ico green">' +
+      '          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h12M13 6l3 3-3 3"/><path d="M20 15H8M11 12l-3 3 3 3"/></svg>' +
+      '        </div>' +
+      '        <div class="fx-body"><div class="n">文档同步</div><div class="d">比对腾讯文档里的新增固件链接</div></div>' +
+      '        <div class="fx-arrow">›</div>' +
+      '      </div>' +
+      '    </div>' +
+      '    <div class="fx-ft">点击空白处关闭</div>' +
+      '  </div>' +
+      '</div>'
+    );
+    document.body.appendChild(l1);
+
+    l1.addEventListener('click', function (e) {
+      if (e.target === l1 || e.target.getAttribute('data-close')) closeL1();
+    });
+
+    $('fxEntrySettings').addEventListener('click', function () {
+      closeL1();
+      try { if (window.flymePrefillSrc) window.flymePrefillSrc(); } catch (e) {}
+      if (window.flymeOpenSettings) window.flymeOpenSettings();
+    });
+
+    $('fxEntrySync').addEventListener('click', function () {
+      closeL1();
+      openSync();
+    });
+  }
+
+  function openL1() { if (!l1) buildL1(); l1.classList.add('show'); }
+  function closeL1() { if (l1) l1.classList.remove('show'); }
+
+  /* ---------- 二级：文档同步 ---------- */
+  var l2 = null;
+  var repoKeys = null;
+  var repoIndex = null;   // model|ts -> {hash:1}，用于 O(1) 冲突判断
+  var docUrls = [];
+  var added = [], conflicts = [], legacy = [];
+  var existing = 0;
+
+  var URL_ALIAS = {
+    '/Firmware/Flyme/meizu2_Pro/12.25.5.16/cn_daily/20250512191421-20250516022243/03fdf276/update.zip':
+      'https://download.meizu.com/Firmware/Flyme/meizu20_Pro/12.25.5.16/cn_daily/20250512191421-20250516022243/03fdf276/update.zip',
+    '/Firmware/Flyme/PRO7_Plus/6.1.2.3//20180111121511/736521af/update.zip':
+      'https://download.meizu.com/Firmware/Flyme/PRO7_Plus/6.1.2.3/20180111121511/736521af/update.zip'
+  };
+
+  var KEY_RE = /\/Flyme\/([^/]+)\/([^/]+)\/([^/]+)\/(\d{14}(?:-\d{14})?)\/([0-9A-Za-z]{8})\/update\.zip/;
+
+  function isVerLike(s) { return /^\d+(\.\d+)+$/.test(s); }
+
+  function normPath(u) {
+    var p = String(u || '').replace(/^https?:\/\/[^\/]+/i, '');
+    var i = p.toLowerCase().indexOf('.zip');
+    if (i >= 0) p = p.slice(0, i + 4);
+    return p.replace(/\/{2,}/g, '/');
+  }
+
+  function aliasUrl(u) {
+    var p = String(u || '').replace(/^https?:\/\/[^\/]+/i, '');
+    var i = p.toLowerCase().indexOf('.zip');
+    if (i >= 0) p = p.slice(0, i + 4);
+    var hit = URL_ALIAS[p] || URL_ALIAS[p.replace(/\/{2,}/g, '/')];
+    return hit || u;
+  }
+
+  function infoOf(u) {
+    var m = KEY_RE.exec(aliasUrl(u));
+    if (!m) return null;
+    var a = m[1], b = m[2], lg = false;
+    if (isVerLike(a) && !isVerLike(b)) { var t = a; a = b; b = t; lg = true; }
+    return { model: a, ver: b, region: m[3], ts: m[4], hash: m[5].toLowerCase(), legacy: lg };
+  }
+
+  // 统一去重键：K1 机型|Hash（同文件）→ K2 机型|时间|版本 → K3 归一化路径
+  function keyOf(u) {
+    var u2 = aliasUrl(u), i = infoOf(u2);
+    if (i && i.hash) return 'K1:' + i.model.toLowerCase() + '|' + i.hash;
+    if (i && i.ts) return 'K2:' + i.model.toLowerCase() + '|' + i.ts + '|' + i.ver;
+    return 'K3:' + normPath(u2);
+  }
+
+  function buildL2() {
+    l2 = el(
+      '<div class="fx-mask" id="fxL2">' +
+      '  <div class="fx-card wide" role="dialog" aria-label="文档同步">' +
+      '    <div class="fx-hd">' +
+      '      <div><div class="t">文档同步</div><div class="h">粘贴书签抓到的链接，与仓库数据比对出新增</div></div>' +
+      '      <button class="fx-x" data-close="1" aria-label="关闭">×</button>' +
+      '    </div>' +
+      '    <div class="fx-bd">' +
+      '      <div class="fx-step" id="fxNativeStep" style="display:none">' +
+      '        <div class="lab"><span class="num">1</span>内置抓取（本机登录腾讯文档）</div>' +
+      '        <div class="fx-row">' +
+      '          <button class="fx-btn primary" id="fxNativeLogin">登录</button>' +
+      '          <button class="fx-btn" id="fxNativeLogout" disabled>登出</button>' +
+      '          <button class="fx-btn primary" id="fxNativeRun">抓取</button>' +
+      '          <button class="fx-btn" id="fxSheetsBtn">设置</button>' +
+      '          <span class="fx-note" id="fxNativeHint" style="margin:0"></span>' +
+      '        </div>' +
+      '        <div class="fx-note" id="fxSheetsHint" style="margin:2px 0 0">未登录</div>' +
+      '        <div class="fx-note">点「登录」弹出腾讯文档登录窗口；登录后自动读取工作簿列表。点「抓取」按「设置」里的勾选取数。</div>' +
+      '      </div>' +
+      '      <div class="fx-step">' +
+      '        <div class="lab"><span class="num">1</span>粘贴链接（书签面板「复制全部链接」）</div>' +
+      '        <textarea class="fx-ta" id="fxUrls" placeholder="一行一条，只认 .../update.zip 结尾的链接"></textarea>' +
+      '        <div class="fx-row"><span class="fx-note" id="fxUrlsHint" style="margin:0">0 条</span></div>' +
+      '      </div>' +
+      '      <div class="fx-step">' +
+      '        <div class="lab"><span class="num">2</span>仓库数据 firmware.json' +
+      '          <span style="color:#98a6b3;font-weight:400">（留空 = 不读取仓库，只能用清单比对）</span></div>' +
+      '        <div class="fx-inp-wrap">' +
+      '          <input class="fx-inp" id="fxRepoUrl" type="text" spellcheck="false" ' +
+      '                 placeholder="https://…/main/data/firmware.json">' +
+      '          <button class="fx-inp-help" id="fxRepoHelp" type="button" title="地址格式说明">?</button>' +
+      '        </div>' +
+      '        <div class="fx-help-pop" id="fxRepoHelpBox" style="display:none">' +
+      '          · https://raw.githubusercontent.com/&lt;用户名&gt;/&lt;仓库名&gt;/main/data/firmware.json<br>' +
+      '          · https://cdn.jsdelivr.net/gh/&lt;用户名&gt;/&lt;仓库名&gt;@main/data/firmware.json<br>' +
+      '          · https://github.com/&lt;用户名&gt;/&lt;仓库名&gt;（自动转 raw 地址）<br>' +
+      '          · &lt;用户名&gt;/&lt;仓库名&gt;（自动补全成 raw 地址）' +
+      '        </div>' +
+      '        <div class="fx-row">' +
+      '          <button class="fx-btn primary" id="fxFetch">从 GitHub 读取</button>' +
+      '          <button class="fx-btn" id="fxPick">选择本地文件…</button>' +
+      '          <button class="fx-btn" id="fxRepoReset">清空</button>' +
+      '          <input type="file" id="fxFile" accept=".json" style="display:none">' +
+      '        </div>' +
+      '        <div class="fx-note" id="fxRepoHint">未载入</div>' +
+      '      </div>' +
+      '      <div class="fx-step">' +
+      '        <div class="lab"><span class="num">3</span>比对结果</div>' +
+      '        <div id="fxResult"><div class="fx-note" style="margin:0">准备就绪后点下面的「开始比对」</div></div>' +
+      '        <div class="fx-row">' +
+      '          <button class="fx-btn primary" id="fxRun" disabled>开始比对</button>' +
+      '          <button class="fx-btn" id="fxCopy" disabled>复制 doc-urls 内容</button>' +
+      '          <button class="fx-btn" id="fxCopyOnly" disabled>只复制新增链接</button>' +
+      '        </div>' +
+      '      </div>' +
+      '    </div>' +
+      '    <div class="fx-ft">只计算、只显示，不修改任何文件</div>' +
+      '  </div>' +
+      '</div>'
+    );
+    document.body.appendChild(l2);
+
+    l2.addEventListener('click', function (e) {
+      if (e.target === l2 || e.target.getAttribute('data-close')) closeSync();
+    });
+
+    // 原生环境（Windows / Android / iOS）：登录 / 登出 / 抓取 / 设置
+    if (window.flymeDoc && typeof window.flymeDoc.fetchUrls === 'function') {
+      $('fxNativeStep').style.display = '';
+
+      var SHEETS = [], SEL = {};
+      var SEL_KEY = 'flyme_native_sheets';
+      var AUTH = false;          // 是否已登录
+      var BUSY = false;          // 是否正在抓取
+      var sheetPop = null;
+
+      function loadSel() {
+        try {
+          var raw = localStorage.getItem(SEL_KEY);
+          if (raw) {
+            var a = JSON.parse(raw), valid = {};
+            SHEETS.forEach(function (x) { valid[x.id] = 1; });
+            a = (a || []).filter(function (id) { return valid[id]; });
+            if (a.length) { SEL = {}; a.forEach(function (id) { SEL[id] = 1; }); return; }
+          }
+        } catch (e) {}
+        SEL = {};
+        if (SHEETS.length) SEL[SHEETS[0].id] = 1;
+      }
+      function saveSel() {
+        try {
+          localStorage.setItem(SEL_KEY, JSON.stringify(Object.keys(SEL).filter(function (id) { return SEL[id]; })));
+        } catch (e) {}
+      }
+      function selIds() {
+        return SHEETS.filter(function (x) { return SEL[x.id]; }).map(function (x) { return x.id; });
+      }
+      function stateHint(txt) {
+        if (txt) { $('fxSheetsHint').textContent = txt; return; }
+        var n = selIds().length;
+        var base = AUTH ? '已登录' : '未登录';
+        var sel = SHEETS.length
+          ? (' · 已选 ' + n + '/' + SHEETS.length + ' 个工作簿' + (n === SHEETS.length ? '（全部）' : ''))
+          : '';
+        $('fxSheetsHint').textContent = base + sel;
+      }
+      function syncButtons() {
+        $('fxNativeLogin').disabled = BUSY || AUTH;
+        // 登出始终可点：本机可能残留上次登录的 cookie，任何时候都应能清
+        $('fxNativeLogout').disabled = BUSY;
+        $('fxNativeRun').disabled = BUSY;
+        $('fxSheetsBtn').disabled = BUSY;
+      }
+      function refreshSheets() {
+        if (typeof window.flymeDoc.listSheets !== 'function') return Promise.resolve([]);
+        return window.flymeDoc.listSheets().then(function (list) {
+          SHEETS = (list || []).map(function (x) {
+            return { id: String(x.id), name: String(x.name || '') };
+          });
+          if (SHEETS.length) { AUTH = true; loadSel(); stateHint(); }
+          return SHEETS;
+        });
+      }
+      function doLogin() {
+        if (BUSY) return;
+        if (typeof window.flymeDoc.login !== 'function') {
+          // 旧版原生没有独立登录：用读列表顺带完成登录
+          $('fxNativeHint').textContent = '正在登录并读取工作簿…';
+          return refreshSheets().then(function () {
+            $('fxNativeHint').textContent = '已登录';
+            syncButtons();
+          }).catch(function (e) {
+            $('fxNativeHint').textContent = '失败：' + ((e && e.message) ? e.message : e);
+          });
+        }
+        BUSY = true; syncButtons();
+        $('fxNativeHint').textContent = '正在打开登录窗口…';
+        var loginTimeout = new Promise(function (_, reject) {
+          setTimeout(function () { reject(new Error('等待登录超时')); }, 185000);
+        });
+        Promise.race([
+          Promise.resolve().then(function () { return window.flymeDoc.login(); }),
+          loginTimeout
+        ])
+          .then(function (ok) {
+            if (ok === false) throw new Error('已取消登录');
+            AUTH = true;
+            $('fxNativeHint').textContent = '已登录，正在读取工作簿…';
+            return refreshSheets();
+          })
+          .then(function () { $('fxNativeHint').textContent = '已登录'; })
+          .catch(function (e) {
+            var m = (e && e.message) ? e.message : String(e);
+            if (m.indexOf('取消') >= 0) {
+              $('fxNativeHint').textContent = '已取消登录，可重新点「登录」';
+            } else {
+              $('fxNativeHint').textContent = '登录失败：' + m;
+            }
+          })
+          .then(function () { BUSY = false; syncButtons(); stateHint(); });
+      }
+      function doLogout() {
+        if (BUSY) return;
+        BUSY = true; syncButtons();
+        $('fxNativeHint').textContent = '正在退出登录…';
+        Promise.resolve(window.flymeDoc.logout ? window.flymeDoc.logout() : null)
+          .catch(function () {})
+          .then(function (ok) {
+            AUTH = false;
+            SHEETS = [];
+            $('fxNativeHint').textContent = (ok === false)
+              ? '已执行清理，但仍检测到登录态，请再点一次登出'
+              : '已退出登录';
+            stateHint('未登录');
+          })
+          .then(function () { BUSY = false; syncButtons(); });
+      }
+      function doFetch() {
+        if (BUSY) return;
+        BUSY = true; syncButtons();
+        $('fxNativeHint').textContent = '准备中…';
+        var prep = SHEETS.length ? Promise.resolve(SHEETS) : refreshSheets().catch(function () { return []; });
+        prep.then(function () {
+          var ids = selIds();
+          if (!ids.length) {
+            $('fxNativeHint').textContent = '未读到工作簿，本次抓取全部…';
+            return window.flymeDoc.fetchUrls(undefined);
+          }
+          $('fxNativeHint').textContent = '开始抓取 ' + ids.length + ' 个工作簿…';
+          return window.flymeDoc.fetchUrls(ids);
+        }).then(function (urls) {
+          urls = urls || [];
+          if (!urls.length) { $('fxNativeHint').textContent = '没有抓到链接'; return; }
+          $('fxUrls').value = urls.join('\n');
+          docUrls = parseUrls($('fxUrls').value);
+          $('fxUrlsHint').textContent = docUrls.length + ' 条';
+          refreshRunBtn();
+          AUTH = true;
+          $('fxNativeHint').textContent = '已抓取 ' + urls.length + ' 条，可以直接比对';
+        }).catch(function (e) {
+          $('fxNativeHint').textContent = '失败：' + ((e && e.message) ? e.message : e);
+        }).then(function () { BUSY = false; syncButtons(); stateHint(); });
+      }
+
+      function closeSheetPop() {
+        if (!sheetPop) return;
+        try { sheetPop.remove(); } catch (e) {}
+        sheetPop = null;
+        document.removeEventListener('mousedown', onSheetOutside, true);
+        document.removeEventListener('keydown', onSheetEsc, true);
+      }
+      function onSheetOutside(e) {
+        if (!sheetPop) return;
+        if (sheetPop.contains(e.target)) return;
+        if (e.target && e.target.id === 'fxSheetsBtn') return;
+        closeSheetPop();
+      }
+      function onSheetEsc(e) { if (e.key === 'Escape') closeSheetPop(); }
+
+      function renderSheetPop(box) {
+        var html = '<label style="display:flex;align-items:center;gap:8px;padding:8px 12px;' +
+          'border-bottom:1px solid #f2f5f9;cursor:pointer;background:#f7fafd;font-weight:600">' +
+          '<input type="checkbox" id="fxSheetAll" style="width:15px;height:15px"> 全选' +
+          '<span id="fxSheetCnt" style="margin-left:auto;color:#8b99a6;font:11px Consolas,monospace"></span></label>';
+        SHEETS.forEach(function (sh, i) {
+          html += '<label style="display:flex;align-items:center;gap:8px;padding:8px 12px;' +
+            'border-bottom:1px solid #f2f5f9;cursor:pointer">' +
+            '<input type="checkbox" class="fx-sheet-cb" data-id="' + sh.id + '"' +
+            (SEL[sh.id] ? ' checked' : '') + ' style="width:15px;height:15px">' +
+            '<span style="color:#8b99a6;font:11px Consolas,monospace;min-width:18px">' + (i + 1) + '</span>' +
+            '<span style="flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">' + sh.name + '</span>' +
+            '</label>';
+        });
+        box.innerHTML = html;
+        var all = box.querySelector('#fxSheetAll');
+        var cnt = box.querySelector('#fxSheetCnt');
+        function syncAll() {
+          var n = selIds().length;
+          all.checked = n === SHEETS.length && n > 0;
+          all.indeterminate = n > 0 && n < SHEETS.length;
+          cnt.textContent = n + '/' + SHEETS.length;
+          stateHint();
+        }
+        box.addEventListener('change', function (e) {
+          var cb = e.target;
+          if (cb === all) {
+            if (cb.checked) SHEETS.forEach(function (x) { SEL[x.id] = 1; });
+            else SEL = {};
+            Array.prototype.forEach.call(box.querySelectorAll('.fx-sheet-cb'), function (x) {
+              x.checked = !!SEL[x.getAttribute('data-id')];
+            });
+          } else if (cb.classList && cb.classList.contains('fx-sheet-cb')) {
+            var id = cb.getAttribute('data-id');
+            if (cb.checked) SEL[id] = 1; else delete SEL[id];
+          } else return;
+          saveSel();
+          syncAll();
+        });
+        box.addEventListener('mousedown', function (e) { e.stopPropagation(); });
+        syncAll();
+      }
+
+      function openSheetPop() {
+        if (sheetPop) { closeSheetPop(); return; }
+        var btn = $('fxSheetsBtn');
+        var r = btn.getBoundingClientRect();
+        var vw = window.innerWidth || 800;
+        var card = btn.closest ? btn.closest('.fx-card') : null;
+        var cardRight = card ? card.getBoundingClientRect().right : vw;
+        var w = Math.min(320, vw - 24, cardRight - r.left - 8, vw - r.left - 12);
+        w = Math.max(180, w);
+        var left = Math.min(r.left, vw - w - 10);
+        left = Math.max(10, left);
+        var pop = document.createElement('div');
+        pop.id = 'fxSheetPop';
+        pop.style.cssText = 'position:fixed;z-index:2147483000;background:#fff;border:1px solid #dbe3ec;' +
+          'border-radius:10px;box-shadow:0 14px 36px rgba(12,28,45,.20);overflow:hidden;' +
+          'width:' + Math.round(w) + 'px;left:' + Math.round(left) + 'px;' +
+          'top:' + Math.round(r.bottom + 6) + 'px';
+        pop.innerHTML = '<div id="fxSheetPopBody" style="max-height:260px;overflow:auto"></div>' +
+          '<div style="display:flex;align-items:center;justify-content:flex-end;gap:8px;' +
+          'padding:8px 12px;border-top:1px solid #eef2f6;background:#fbfcfe">' +
+          '<button id="fxSheetDone" class="fx-btn primary" style="padding:6px 14px">关闭</button></div>';
+        document.body.appendChild(pop);
+        sheetPop = pop;
+        var pr0 = pop.getBoundingClientRect();
+        if (pr0.right > vw - 8) pop.style.left = Math.max(8, vw - pr0.width - 8) + 'px';
+        renderSheetPop(pop.querySelector('#fxSheetPopBody'));
+        pop.querySelector('#fxSheetDone').addEventListener('click', closeSheetPop);
+        document.addEventListener('mousedown', onSheetOutside, true);
+        document.addEventListener('keydown', onSheetEsc, true);
+        var pr = pop.getBoundingClientRect();
+        if (pr.bottom > (window.innerHeight || 700) - 8) {
+          pop.style.top = Math.max(8, r.top - pr.height - 6) + 'px';
+        }
+      }
+
+      $('fxNativeLogin').addEventListener('click', doLogin);
+      $('fxNativeLogout').addEventListener('click', doLogout);
+      $('fxNativeRun').addEventListener('click', function () { closeSheetPop(); doFetch(); });
+      $('fxSheetsBtn').addEventListener('click', function () {
+        if (typeof window.flymeDoc.listSheets !== 'function') {
+          stateHint('当前版本不支持选择工作簿，将抓取全部');
+          return;
+        }
+        if (SHEETS.length) { openSheetPop(); return; }
+        if (BUSY) return;
+        BUSY = true; syncButtons();
+        stateHint('正在读取工作簿列表…');
+        refreshSheets()
+          .then(function () {
+            if (!SHEETS.length) { stateHint('没有读到工作簿，将抓取全部'); return; }
+            openSheetPop();
+          })
+          .catch(function (e) {
+            stateHint('读取失败：' + ((e && e.message) ? e.message : e));
+          })
+          .then(function () { BUSY = false; syncButtons(); stateHint(); });
+      });
+
+      if (window.flymeDocProgress && window.flymeDocProgress.on) {
+        try { window.flymeDocProgress.on(function (txt) { $('fxNativeHint').textContent = txt; }); } catch (e) {}
+      }
+      syncButtons();
+      stateHint('未登录');
+    }
+
+    $('fxUrls').addEventListener('input', function () {
+      docUrls = parseUrls($('fxUrls').value);
+      $('fxUrlsHint').textContent = docUrls.length + ' 条';
+      refreshRunBtn();
+    });
+
+    // 默认留空，只记住用户自己填过的地址
+    try { $('fxRepoUrl').value = localStorage.getItem(REPO_KEY) || ''; }
+    catch (e) { $('fxRepoUrl').value = ''; }
+
+    $('fxRepoReset').addEventListener('click', function () {
+      $('fxRepoUrl').value = '';
+      try { localStorage.removeItem(REPO_KEY); } catch (e) {}
+      $('fxRepoHint').textContent = '已清空地址';
+    });
+
+    $('fxRepoHelp').addEventListener('click', function (e) {
+      e.stopPropagation();
+      var box = $('fxRepoHelpBox');
+      box.style.display = (box.style.display === 'none') ? 'block' : 'none';
+    });
+    document.addEventListener('click', function (e) {
+      var box = $('fxRepoHelpBox');
+      if (!box || box.style.display === 'none') return;
+      if (e.target && (e.target.id === 'fxRepoHelp' || e.target.id === 'fxRepoHelpBox')) return;
+      box.style.display = 'none';
+    });
+
+    $('fxFetch').addEventListener('click', fetchRepo);
+    $('fxPick').addEventListener('click', function () { $('fxFile').click(); });
+    $('fxFile').addEventListener('change', function (e) {
+      var f = e.target.files[0];
+      if (!f) return;
+      var r = new FileReader();
+      r.onload = function () {
+        try {
+          setRepo(JSON.parse(r.result));
+          toast('已载入本地 firmware.json');
+        } catch (err) {
+          $('fxRepoHint').textContent = '解析失败：' + err.message;
+        }
+      };
+      r.readAsText(f, 'utf-8');
+    });
+
+    $('fxRun').addEventListener('click', runCompare);
+    $('fxCopy').addEventListener('click', function () {
+      var head = '# ===== 腾讯文档同步 ' + new Date().toISOString().slice(0, 10) +
+                 ' 共 ' + added.length + ' 条 =====';
+      copy([head].concat(added).join('\n'));
+    });
+    $('fxCopyOnly').addEventListener('click', function () { copy(added.join('\n')); });
+
+  }
+
+  function openSync() { if (!l2) buildL2(); l2.classList.add('show'); }
+  function closeSync() { if (l2) l2.classList.remove('show'); }
+
+  function parseUrls(text) {
+    var out = [], seen = {};
+    text.split(/\r?\n/).forEach(function (line) {
+      var t = line.trim();
+      if (!t || t.charAt(0) === '#') return;
+      var m = t.match(/https?:\/\/[^"\s\\]+?update\.zip/);
+      if (!m) return;
+      var u = aliasUrl(m[0]);
+      var k = keyOf(u);
+      if (seen[k]) return;
+      seen[k] = 1;
+      out.push(u);
+    });
+    return out;
+  }
+
+  function refreshRunBtn() {
+    $('fxRun').disabled = !(docUrls.length && repoKeys);
+  }
+
+  function setRepo(json) {
+    repoKeys = {};
+    repoIndex = {};
+    var phones = json.phones || {};
+    var pcount = 0;
+    Object.keys(phones).forEach(function (pid) {
+      pcount++;
+      (phones[pid].groups || []).forEach(function (g) {
+        (g.builds || []).forEach(function (b) {
+          var mk = String(b.model || '').toLowerCase() + '|' + (b.ts || '');
+          var hh = String(b.hash || '').toLowerCase();
+          if (hh) repoKeys['K1:' + String(b.model || '').toLowerCase() + '|' + hh] = 1;
+          if (b.ts) repoKeys['K2:' + mk + '|' + (b.ver || '')] = 1;
+          repoKeys['K3:' + normPath(aliasUrl(b.url || ''))] = 1;
+          (repoIndex[mk] || (repoIndex[mk] = {}))[hh] = 1;
+        });
+      });
+    });
+    $('fxRepoHint').textContent = '已载入：' + Object.keys(repoKeys).length +
+      ' 条构建记录 / ' + pcount + ' 个机型';
+    refreshRunBtn();
+  }
+
+  var REPO_KEY = 'flyme_repo_url';
+
+  /** 把各种写法统一成 raw 地址 */
+  function normalizeRepoUrl(v) {
+    v = (v || '').trim();
+    if (!v) return '';
+    if (/^https?:\/\//i.test(v)) {
+      var m1 = v.match(/^https?:\/\/github\.com\/([^\/]+)\/([^\/]+)\/blob\/([^\/]+)\/(.+)$/i);
+      if (m1) return 'https://raw.githubusercontent.com/' + m1[1] + '/' + m1[2] + '/' + m1[3] + '/' + m1[4];
+      var m2 = v.match(/^https?:\/\/github\.com\/([^\/]+)\/([^\/]+)\/?$/i);
+      if (m2) return 'https://raw.githubusercontent.com/' + m2[1] + '/' + m2[2] + '/main/data/firmware.json';
+      return v;
+    }
+    var m3 = v.match(/^([\w.\-]+)\/([\w.\-]+)$/);
+    if (m3) return 'https://raw.githubusercontent.com/' + m3[1] + '/' + m3[2] + '/main/data/firmware.json';
+    return v;
+  }
+
+  /** raw 地址 → jsDelivr 镜像（读取失败时兜底） */
+  function mirrorOf(url) {
+    var m = url.match(/^https?:\/\/raw\.githubusercontent\.com\/([^\/]+)\/([^\/]+)\/([^\/]+)\/(.+)$/i);
+    if (!m) return '';
+    return 'https://cdn.jsdelivr.net/gh/' + m[1] + '/' + m[2] + '@' + m[3] + '/' + m[4];
+  }
+
+  function fetchJson(url) {
+    return fetch(url, { cache: 'no-store' }).then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    });
+  }
+
+  function fetchRepo() {
+    var input = ($('fxRepoUrl').value || '').trim();
+    if (!input) {
+      $('fxRepoHint').textContent = '请先填写仓库地址（格式见下方说明）';
+      try { $('fxRepoUrl').focus(); } catch (e) {}
+      return;
+    }
+    var url = normalizeRepoUrl(input);
+    if (!/^https?:\/\//i.test(url)) {
+      $('fxRepoHint').textContent = '地址格式不对：需要以 http(s):// 开头，或填「用户名/仓库名」';
+      return;
+    }
+    $('fxRepoUrl').value = url;
+    try { localStorage.setItem(REPO_KEY, url); } catch (e) {}
+
+    $('fxRepoHint').textContent = '正在读取… ' + url;
+    fetchJson(url).then(function (j) {
+      setRepo(j);
+      toast('已从 GitHub 载入');
+    }).catch(function (e1) {
+      var mirror = mirrorOf(url);
+      if (!mirror) {
+        $('fxRepoHint').textContent = '读取失败：' + e1.message + '（可用「选择本地文件…」）';
+        return;
+      }
+      $('fxRepoHint').textContent = '直连失败，改用镜像… ' + mirror;
+      fetchJson(mirror).then(function (j) {
+        setRepo(j);
+        toast('已从镜像载入');
+      }).catch(function (e2) {
+        $('fxRepoHint').textContent = '读取失败：' + e2.message + '（可用「选择本地文件…」）';
+      });
+    });
+  }
+
+  function runCompare() {
+    added = []; conflicts = []; legacy = []; existing = 0;
+    docUrls.forEach(function (u) {
+      var k = keyOf(u);
+      if (repoKeys[k]) { existing++; return; }
+      var inf = infoOf(u);
+      if (!inf) { legacy.push(u); return; }
+      var mk2 = String(inf.model || '').toLowerCase() + '|' + inf.ts;
+      var conf = !!(repoIndex[mk2] && inf.hash && !repoIndex[mk2][inf.hash]);
+      (conf ? conflicts : added).push(u);
+    });
+    render();
+  }
+
+  function render() {
+    var html = '<div class="fx-stat">' +
+      '<div style="color:#0f9d58">新增<b>' + added.length + '</b></div>' +
+      '<div style="color:#5b6b7c">已存在<b>' + existing + '</b></div>' +
+      '<div style="color:#a8690b">疑似冲突<b>' + conflicts.length + '</b></div>' +
+      '<div style="color:#8a6d9c">旧格式<b>' + legacy.length + '</b></div>' +
+      '<div style="color:#5b6b7c">合计<b>' + docUrls.length + '</b></div>' +
+      '</div>';
+
+    if (added.length) {
+      html += '<div class="fx-listbox">';
+      added.forEach(function (u) {
+        var i = infoOf(u);
+        html += '<div class="it"><span class="fx-tag a">新增</span> ' +
+                i.model + ' / ' + i.ver + ' / ' + i.region + '<br>' + u + '</div>';
+      });
+      html += '</div>';
+    } else {
+      html += '<div class="fx-note" style="margin:0">没有新增条目，仓库已是最新。</div>';
+    }
+
+    if (legacy.length) {
+      html += '<div class="fx-note" style="margin:10px 0 4px;color:#8a6d9c"><b>旧格式（未计入新增）</b></div>' +
+              '<div class="fx-listbox" style="max-height:120px">';
+      legacy.slice(0, 50).forEach(function (u) {
+        var i = infoOf(u);
+        html += '<div class="it"><span class="fx-tag l">旧格式</span> ' + i.model + ' / ' + i.ver + '</div>';
+      });
+      html += '</div>';
+    }
+
+    if (conflicts.length) {
+      html += '<div class="fx-note" style="margin:10px 0 4px;color:#a8690b"><b>疑似冲突（未计入新增）</b></div>' +
+              '<div class="fx-listbox" style="max-height:120px">';
+      conflicts.slice(0, 50).forEach(function (u) {
+        var i = infoOf(u);
+        html += '<div class="it"><span class="fx-tag c">冲突</span> ' + i.model + ' / ' + i.ver + ' / ' + i.ts + '</div>';
+      });
+      html += '</div>';
+    }
+
+    $('fxResult').innerHTML = html;
+    $('fxCopy').disabled = !added.length;
+    $('fxCopyOnly').disabled = !added.length;
+  }
+
+  function copy(text) {
+    if (!text) { toast('没有内容'); return; }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(function () { toast('已复制'); }, fallback);
+    } else { fallback(); }
+    function fallback() {
+      var ta = document.createElement('textarea');
+      ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand('copy'); toast('已复制'); } catch (e) { toast('复制失败'); }
+      document.body.removeChild(ta);
+    }
+  }
+
+  /* ---------- 绑定蓝底图标 ---------- */
+  function bindLogo() {
+    var logo = document.querySelector('header .logo');
+    if (!logo) { console.warn('[flyme] 未找到 header .logo'); return; }
+    logo.setAttribute('role', 'button');
+    logo.setAttribute('tabindex', '0');
+    logo.setAttribute('title', '打开菜单');
+    logo.addEventListener('click', openL1);
+    logo.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openL1(); }
+    });
+  }
+
+  function boot() { bindLogo(); }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot);
+  } else {
+    boot();
+  }
+})();
+
+</script>
+</body>
+</html>
