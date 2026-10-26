@@ -1,0 +1,7 @@
+﻿# 每行一条链接，支持两种形式：
+#   1) 官网签名链接（带 auth_key）—— 会自动去掉签名换回永久直链
+#   2) 抓包得到的 download.meizu.com 永久链接
+# 以 # 开头的行是注释，不会处理
+#
+# 示例（魅族21 / Flyme 12.7.0.0）：
+https://download.meizu.com/Firmware/Flyme/meizu21/12.7.0.0/cn/20261019043635/14f3162c/update.zip
