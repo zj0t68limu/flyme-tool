@@ -1,0 +1,45 @@
+name: update-firmware-data
+
+# Three triggers:
+#   1) you commit a change to data/manual-urls.txt -> runs immediately
+#   2) scheduled run (cron uses UTC; in Asia/Shanghai that is 00:00 / 08:00 / 12:00 / 18:00)
+#   3) manual "Run workflow" from the Actions page
+on:
+  push:
+    paths:
+      - 'data/manual-urls.txt'
+  schedule:
+    - cron: '0 0,4,10,16 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Update data (scrape official site + manual links)
+        run: python tools/update_data.py --scrape
+
+      - name: Verify sorting (fails the job when unsorted)
+        run: python tools/check_sort.py
+
+      - name: Commit changes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain data/firmware.json)" ]; then
+            git add data/firmware.json
+            git commit -m "chore: update firmware data [skip ci]"
+            git push
+          else
+            echo "no data changes"
+          fi
